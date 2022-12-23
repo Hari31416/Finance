@@ -1,0 +1,201 @@
+Symbol,Name,Country,Sector,IPO Year,Industry
+AAPL,Apple Inc. Common Stock,United States,Technology,1980.0,Computer Manufacturing
+MSFT,Microsoft Corporation Common Stock,United States,Technology,1986.0,Computer Software: Prepackaged Software
+GOOG,Alphabet Inc. Class C Capital Stock,United States,Technology,2004.0,Internet and Information Services
+GOOGL,Alphabet Inc. Class A Common Stock,United States,Technology,2004.0,Internet and Information Services
+AMZN,Amazon.com Inc. Common Stock,United States,Consumer Discretionary,1997.0,Catalog/Specialty Distribution
+UNH,UnitedHealth Group Incorporated Common Stock (DE),United States,Health Care,,Medical Specialities
+JNJ,Johnson & Johnson Common Stock,United States,Health Care,,Biotechnology: Pharmaceutical Preparations
+XOM,Exxon Mobil Corporation Common Stock,United States,Energy,,Oil & Gas Production
+V,Visa Inc.,United States,Consumer Discretionary,,Business Services
+TSLA,Tesla Inc. Common Stock,United States,Consumer Discretionary,2010.0,Auto Manufacturing
+TSM,Taiwan Semiconductor Manufacturing Company Ltd.,Taiwan,Technology,1997.0,Semiconductors
+WMT,Walmart Inc. Common Stock,United States,Consumer Discretionary,,Department/Specialty Retail Stores
+JPM,JP Morgan Chase & Co. Common Stock,United States,Finance,,Major Banks
+NVDA,NVIDIA Corporation Common Stock,United States,Technology,1999.0,Semiconductors
+PG,Procter & Gamble Company (The) Common Stock,United States,Consumer Discretionary,,Package Goods/Cosmetics
+LLY,Eli Lilly and Company Common Stock,United States,Health Care,,Biotechnology: Pharmaceutical Preparations
+CVX,Chevron Corporation Common Stock,United States,Energy,,Integrated oil Companies
+MA,Mastercard Incorporated Common Stock,United States,Consumer Discretionary,2006.0,Business Services
+HD,Home Depot Inc. (The) Common Stock,United States,Consumer Discretionary,,RETAIL: Building Materials
+META,Meta Platforms Inc. Class A Common Stock,United States,Technology,2012.0,Internet and Information Services
+NVO,Novo Nordisk A/S Common Stock,Denmark,Health Care,,Biotechnology: Pharmaceutical Preparations
+PFE,Pfizer Inc. Common Stock,United States,Health Care,,Biotechnology: Pharmaceutical Preparations
+ABBV,AbbVie Inc. Common Stock,United States,Health Care,2012.0,Other Pharmaceuticals
+MRK,Merck & Company Inc. Common Stock (new),United States,Health Care,,Biotechnology: Pharmaceutical Preparations
+KO,Coca-Cola Company (The) Common Stock,United States,Consumer Staples,,Beverages (Production/Distribution)
+BAC,Bank of America Corporation Common Stock,United States,Finance,,Major Banks
+PEP,PepsiCo Inc. Common Stock,United States,Consumer Staples,,Beverages (Production/Distribution)
+BABA,Alibaba Group Holding Limited American Depositary Shares each representing eight Ordinary share,China,Consumer Discretionary,2014.0,Catalog/Specialty Distribution
+AVGO,Broadcom Inc. Common Stock,United States,Technology,2009.0,Semiconductors
+ASML,ASML Holding N.V. New York Registry Shares,Netherlands,Technology,1995.0,Industrial Machinery/Components
+GEN,Gen Digital Inc. Common Stock,United States,Technology,,Computer Software: Prepackaged Software
+ORCL,Oracle Corporation Common Stock,United States,Technology,1986.0,Computer Software: Prepackaged Software
+TMO,Thermo Fisher Scientific Inc Common Stock,United States,Industrials,,Biotechnology: Laboratory Analytical Instruments
+AZN,AstraZeneca PLC American Depositary Shares,United Kingdom,Health Care,,Biotechnology: Pharmaceutical Preparations
+COST,Costco Wholesale Corporation Common Stock,United States,Consumer Discretionary,,Department/Specialty Retail Stores
+SHEL,Royal Dutch Shell PLC American Depositary Shares (each representing two (2) Ordinary Shares) ,Netherlands,Energy,2022.0,Oil & Gas Production
+NVS,Novartis AG Common Stock,Switzerland,Health Care,,Biotechnology: Pharmaceutical Preparations
+MCD,McDonald's Corporation Common Stock,United States,Consumer Discretionary,,Restaurants
+CSCO,Cisco Systems Inc. Common Stock (DE),United States,Telecommunications,1990.0,Computer Communications Equipment
+ABT,Abbott Laboratories Common Stock,United States,Health Care,,Medical/Dental Instruments
+DHR,Danaher Corporation Common Stock,United States,Health Care,,Medical Specialities
+TM,Toyota Motor Corporation Common Stock,Japan,Consumer Discretionary,,Auto Manufacturing
+NKE,Nike Inc. Common Stock,United States,Consumer Discretionary,,Shoe Manufacturing
+TMUS,T-Mobile US Inc. Common Stock,United States,Telecommunications,,Telecommunications Equipment
+ACN,Accenture plc Class A Ordinary Shares (Ireland),Ireland,Technology,2001.0,EDP Services
+NEE,NextEra Energy Inc. Common Stock,United States,Utilities,,Electric Utilities: Central
+LIN,Linde plc Ordinary Share,,Industrials,2018.0,Major Chemicals
+VZ,Verizon Communications Inc. Common Stock,United States,Telecommunications,,Telecommunications Equipment
+DIS,Walt Disney Company (The) Common Stock,United States,Consumer Discretionary,,Movies/Entertainment
+BMY,Bristol-Myers Squibb Company Common Stock,United States,Health Care,,Biotechnology: Pharmaceutical Preparations
+ADBE,Adobe Inc. Common Stock,United States,Technology,1986.0,Computer Software: Prepackaged Software
+PM,Philip Morris International Inc Common Stock,United States,Health Care,, Medicinal Chemicals and Botanical Products 
+BHP,BHP Group Limited American Depositary Shares (Each representing two Ordinary Shares),Australia,Basic Materials,,Metal Mining
+WFC,Wells Fargo & Company Common Stock,United States,Finance,,Major Banks
+TTE,TotalEnergies SE,France,Energy,,Oil & Gas Production
+UPS,United Parcel Service Inc. Common Stock,United States,Consumer Discretionary,1999.0,Air Freight/Delivery Services
+SCHW,Charles Schwab Corporation (The) Common Stock,United States,Finance,,Investment Bankers/Brokers/Service
+CMCSA,Comcast Corporation Class A Common Stock,United States,Consumer Discretionary,,Telecommunications Equipment
+TXN,Texas Instruments Incorporated Common Stock,United States,Technology,,Semiconductors
+MS,Morgan Stanley Common Stock,United States,Finance,,Investment Bankers/Brokers/Service
+RTX,Raytheon Technologies Corporation Common Stock,United States,Industrials,,Military/Government/Technical
+HON,Honeywell International Inc. Common Stock,United States,Industrials,,Consumer Electronics/Appliances
+AMGN,Amgen Inc. Common Stock,United States,Health Care,1983.0,Biotechnology: Pharmaceutical Preparations
+COP,ConocoPhillips Common Stock,United States,Energy,,Integrated oil Companies
+NFLX,Netflix Inc. Common Stock,United States,Consumer Discretionary,2002.0,Consumer Electronics/Video Chains
+T,AT&T Inc.,United States,Consumer Discretionary,,Telecommunications Equipment
+DE,Deere & Company Common Stock,United States,Industrials,,Industrial Machinery/Components
+CRM,Salesforce Inc. Common Stock,United States,Technology,2004.0,Computer Software: Prepackaged Software
+UL,Unilever PLC Common Stock,United Kingdom,Consumer Discretionary,,Package Goods/Cosmetics
+UNP,Union Pacific Corporation Common Stock,United States,Industrials,,Railroads
+IBM,International Business Machines Corporation Common Stock,United States,Technology,,EDP Services
+HDB,HDFC Bank Limited Common Stock,India,Finance,2001.0,Commercial Banks
+LMT,Lockheed Martin Corporation Common Stock,United States,Industrials,,Aerospace
+QCOM,QUALCOMM Incorporated Common Stock,United States,Technology,1991.0,Computer peripheral equipment
+CAT,Caterpillar Inc. Common Stock,United States,Industrials,,Construction/Ag Equipment/Trucks
+HSBC,HSBC Holdings plc. Common Stock,United Kingdom,Finance,,Savings Institutions
+CVS,CVS Health Corporation Common Stock,United States,Health Care,,Managed Health Care
+ELV,Elevance Health Inc. Common Stock,United States,Health Care,,Medical Specialities
+SAP,SAP  SE ADS,Germany,Technology,,Computer Software: Prepackaged Software
+SNY,Sanofi ADS,France,Health Care,,Biotechnology: Pharmaceutical Preparations
+LOW,Lowe's Companies Inc. Common Stock,United States,Consumer Discretionary,,RETAIL: Building Materials
+BUD,Anheuser-Busch Inbev SA Sponsored ADR (Belgium),Belgium,Consumer Staples,,Beverages (Production/Distribution)
+GS,Goldman Sachs Group Inc. (The) Common Stock,United States,Finance,1999.0,Investment Bankers/Brokers/Service
+EQNR,Equinor ASA,Norway,Energy,,Integrated oil Companies
+RIO,Rio Tinto Plc Common Stock,Australia,Basic Materials,2002.0,Metal Mining
+SBUX,Starbucks Corporation Common Stock,United States,Consumer Discretionary,1992.0,Beverages - Non-Alcoholic
+BA,Boeing Company (The) Common Stock,United States,Industrials,,Aerospace
+AXP,American Express Company Common Stock,United States,Finance,,Finance: Consumer Services
+SPGI,S&P Global Inc. Common Stock,United States,Finance,,Advertising
+PDD,Pinduoduo Inc. American Depositary Shares,China,Consumer Discretionary,2018.0,Catalog/Specialty Distribution
+INTU,Intuit Inc. Common Stock,United States,Technology,1993.0,Computer Software: Prepackaged Software
+INTC,Intel Corporation Common Stock,United States,Technology,,Semiconductors
+GILD,Gilead Sciences Inc. Common Stock,United States,Health Care,1992.0,Biotechnology: Pharmaceutical Preparations
+BLK,BlackRock Inc. Common Stock,United States,Finance,1999.0,Investment Bankers/Brokers/Service
+PLD,Prologis Inc. Common Stock,United States,Real Estate,,Real Estate Investment Trusts
+AMD,Advanced Micro Devices Inc. Common Stock,United States,Technology,,Semiconductors
+BP,BP p.l.c. Common Stock,United Kingdom,Energy,,Integrated oil Companies
+MDT,Medtronic plc. Ordinary Shares,United States,Health Care,,Biotechnology: Electromedical & Electrotherapeutic Apparatus
+CI,Cigna Corporation Common Stock,United States,Health Care,,Medical Specialities
+DEO,Diageo plc Common Stock,United Kingdom,Consumer Staples,,Beverages (Production/Distribution)
+ADP,Automatic Data Processing Inc. Common Stock,United States,Consumer Discretionary,,Business Services
+EIX,Edison International Common Stock,United States,Utilities,,Electric Utilities: Central
+AMT,American Tower Corporation (REIT) Common Stock,United States,Real Estate,,Real Estate Investment Trusts
+SONY,Sony Group Corporation American Depositary Shares ,Japan,Consumer Staples,,Consumer Electronics/Appliances
+ISRG,Intuitive Surgical Inc. Common Stock,United States,Health Care,2000.0,Medical/Dental Instruments
+SYK,Stryker Corporation Common Stock,United States,Health Care,,Medical/Dental Instruments
+MDLZ,Mondelez International Inc. Class A Common Stock,United States,Consumer Staples,,Meat/Poultry/Fish
+TJX,TJX Companies Inc. (The) Common Stock,United States,Consumer Discretionary,,Department/Specialty Retail Stores
+JD,JD.com Inc. American Depositary Shares,China,Consumer Discretionary,2014.0,Catalog/Specialty Distribution
+CB,Chubb Limited  Common Stock,Switzerland,Finance,,Property-Casualty Insurers
+BTI,British American Tobacco  Industries p.l.c. Common Stock ADR,United Kingdom,Health Care,1998.0, Medicinal Chemicals and Botanical Products 
+GE,General Electric Company Common Stock,United States,Consumer Discretionary,,Metal Fabrications
+EL,Estee Lauder Companies Inc. (The) Common Stock,United States,Consumer Discretionary,1995.0,Package Goods/Cosmetics
+C,Citigroup Inc. Common Stock,United States,Finance,,Major Banks
+MUFG,Mitsubishi UFJ Financial Group Inc. Common Stock,Japan,Finance,,Commercial Banks
+ADI,Analog Devices Inc. Common Stock,United States,Technology,,Semiconductors
+AMAT,Applied Materials Inc. Common Stock,United States,Technology,1972.0,Semiconductors
+MMC,Marsh & McLennan Companies Inc. Common Stock,United States,Finance,,Specialty Insurers
+MO,Altria Group Inc.,United States,Health Care,, Medicinal Chemicals and Botanical Products 
+NOC,Northrop Grumman Corporation Common Stock,United States,Technology,,Security Systems Services
+MRNA,Moderna Inc. Common Stock,United States,Health Care,2018.0,Biotechnology: Biological Products (No Diagnostic Substances)
+REGN,Regeneron Pharmaceuticals Inc. Common Stock,United States,Health Care,1991.0,Biotechnology: Pharmaceutical Preparations
+ENB,Enbridge Inc Common Stock,Canada,Energy,,Oil & Gas Production
+DUK,Duke Energy Corporation (Holding Company) Common Stock,United States,Utilities,,Power Generation
+PYPL,PayPal Holdings Inc. Common Stock,United States,Consumer Discretionary,,Business Services
+VALE,VALE S.A.  American Depositary Shares Each Representing one common share,Brazil,Basic Materials,,Metal Mining
+SO,Southern Company (The) Common Stock,United States,Utilities,,Power Generation
+NOW,ServiceNow Inc. Common Stock,United States,Technology,2012.0,Computer Software: Prepackaged Software
+IBN,ICICI Bank Limited Common Stock,India,Finance,,Commercial Banks
+VRTX,Vertex Pharmaceuticals Incorporated Common Stock,United States,Health Care,1991.0,Biotechnology: Pharmaceutical Preparations
+PGR,Progressive Corporation (The) Common Stock,United States,Finance,,Property-Casualty Insurers
+INFY,Infosys Limited American Depositary Shares,India,Technology,,EDP Services
+BKNG,Booking Holdings Inc. Common Stock,United States,Consumer Discretionary,,Other Consumer Services
+EOG,EOG Resources Inc. Common Stock,United States,Energy,,Oil & Gas Production
+SLB,Schlumberger N.V. Common Stock,France,Energy,,Oilfield Services/Equipment
+GSK,GSK plc American Depositary Shares (Each representing two Ordinary Shares),United Kingdom,Health Care,2022.0,Biotechnology: Pharmaceutical Preparations
+BDX,Becton Dickinson and Company Common Stock,United States,Health Care,,Medical/Dental Instruments
+APD,Air Products and Chemicals Inc. Common Stock,United States,Industrials,,Specialty Chemicals
+PBR,Petroleo Brasileiro S.A.- Petrobras Common Stock,Brazil,Energy,,Oil & Gas Production
+HCA,HCA Healthcare Inc. Common Stock,United States,Health Care,2011.0,Hospital/Nursing Management
+GD,General Dynamics Corporation Common Stock,United States,Industrials,,Aerospace
+ITW,Illinois Tool Works Inc. Common Stock,United States,Industrials,,Industrial Machinery/Components
+ZTS,Zoetis Inc. Class A Common Stock,United States,Health Care,2013.0,Biotechnology: Pharmaceutical Preparations
+MMM,3M Company Common Stock,United States,Industrials,,Consumer Electronics/Appliances
+CHTR,Charter Communications Inc. Class A Common Stock New,United States,Consumer Discretionary,,Telecommunications Equipment
+CL,Colgate-Palmolive Company Common Stock,United States,Consumer Discretionary,,Package Goods/Cosmetics
+BSX,Boston Scientific Corporation Common Stock,United States,Health Care,,Medical/Dental Instruments
+USB,U.S. Bancorp Common Stock,United States,Finance,,Major Banks
+CSX,CSX Corporation Common Stock,United States,Industrials,,Railroads
+TGT,Target Corporation Common Stock,United States,Consumer Discretionary,,Department/Specialty Retail Stores
+HUM,Humana Inc. Common Stock,United States,Health Care,,Medical Specialities
+WM,Waste Management Inc. Common Stock,United States,Utilities,,Environmental Services
+FISV,Fiserv Inc. Common Stock,United States,Consumer Discretionary,1986.0,Business Services
+SHW,Sherwin-Williams Company (The) Common Stock,United States,Consumer Discretionary,,Paints/Coatings
+CME,CME Group Inc. Class A Common Stock,United States,Finance,2002.0,Investment Bankers/Brokers/Service
+PNC,PNC Financial Services Group Inc. (The) Common Stock,United States,Finance,,Major Banks
+AON,Aon plc Class A Ordinary Shares (Ireland),United States,Finance,,Specialty Insurers
+ETN,Eaton Corporation PLC Ordinary Shares,Ireland,Industrials,,Industrial Machinery/Components
+EQIX,Equinix Inc. Common Stock REIT,United States,Real Estate,2000.0,Real Estate Investment Trusts
+ATVI,Activision Blizzard Inc. Common Stock,United States,Consumer Discretionary,,Recreational Games/Products/Toys
+CCI,Crown Castle Inc. Common Stock,United States,Real Estate,,Real Estate Investment Trusts
+UBS,UBS Group AG Registered Ordinary Shares,Switzerland,Finance,2014.0,Major Banks
+AMX,America Movil S.A.B. de C.V. American Depository Receipt Series L,Mexico,Telecommunications,,Telecommunications Equipment
+AMOV,America Movil S.A.B. de C.V. Class A American Depositary Shares,Mexico,Telecommunications,,Telecommunications Equipment
+ICE,Intercontinental Exchange Inc. Common Stock,United States,Finance,2005.0,Investment Bankers/Brokers/Service
+NSC,Norfolk Southern Corporation Common Stock,United States,Industrials,,Railroads
+TFC,Truist Financial Corporation Common Stock,United States,Finance,,Major Banks
+MET,MetLife Inc. Common Stock,United States,Finance,2000.0,Life Insurance
+ABB,ABB Ltd Common Stock,Switzerland,Energy,,Electrical Products
+OXY,Occidental Petroleum Corporation Common Stock,United States,Energy,,Oil & Gas Production
+LRCX,Lam Research Corporation Common Stock,United States,Technology,1984.0,Industrial Machinery/Components
+EMR,Emerson Electric Company Common Stock,United States,Industrials,,Industrial Machinery/Components
+DG,Dollar General Corporation Common Stock,United States,Consumer Discretionary,2009.0,Department/Specialty Retail Stores
+BX,Blackstone Inc. Common Stock,United States,Finance,2007.0,Investment Managers
+MCK,McKesson Corporation Common Stock,United States,Health Care,,Other Pharmaceuticals
+SMFG,Sumitomo Mitsui Financial Group Inc Unsponsored American Depositary Shares (Japan),Japan,Finance,,Commercial Banks
+MU,Micron Technology Inc. Common Stock,United States,Technology,,Semiconductors
+FCX,Freeport-McMoRan Inc. Common Stock,United States,Basic Materials,,Metal Mining
+AIG,American International Group Inc. New Common Stock,United States,Finance,,Life Insurance
+RELX,RELX PLC PLC American Depositary Shares (Each representing One Ordinary Share),United Kingdom,Consumer Discretionary,2015.0,Business Services
+KLAC,KLA Corporation Common Stock,United States,Technology,1980.0,Electronic Components
+MNST,Monster Beverage Corporation,United States,Consumer Staples,,Beverages (Production/Distribution)
+MPC,Marathon Petroleum Corporation Common Stock,United States,Energy,,Integrated oil Companies
+PXD,Pioneer Natural Resources Company Common Stock,United States,Energy,,Oil & Gas Production
+VMW,Vmware Inc. Common stock Class A,United States,Technology,2007.0,Computer Software: Prepackaged Software
+ORLY,O'Reilly Automotive Inc. Common Stock,United States,Consumer Discretionary,1993.0,Auto & Home Supply Stores
+KDP,Keurig Dr Pepper Inc. Common Stock,United States,Consumer Staples,,Beverages (Production/Distribution)
+EPD,Enterprise Products Partners L.P. Common Stock,United States,Utilities,,Natural Gas Distribution
+MCO,Moody's Corporation Common Stock,United States,Finance,,Advertising
+BN,Brookfield Corporation Class A Limited Voting Shares,Canada,Consumer Discretionary,1925.0,Other Consumer Services
+ABNB,Airbnb Inc. Class A Common Stock,United States,Consumer Discretionary,2020.0,Hotels/Resorts
+D,Dominion Energy Inc. Common Stock,United States,Utilities,,Electric Utilities: Central
+GIS,General Mills Inc. Common Stock,United States,Consumer Staples,,Food Chains
+E,ENI S.p.A. Common Stock,Italy,Energy,,Oil & Gas Production
+SAN,Banco Santander S.A. Sponsored ADR (Spain),Spain,Finance,,Commercial Banks
+KHC,The Kraft Heinz Company Common Stock,United States,Consumer Staples,,Farming/Seeds/Milling
+SRE,DBA Sempra Common Stock,United States,Utilities,,Oil/Gas Transmission
+PSA,Public Storage Common Stock,United States,Real Estate,,Real Estate Investment Trusts
+UBER,Uber Technologies Inc. Common Stock,,Technology,2019.0,EDP Services
+SNPS,Synopsys Inc. Common Stock,United States,Technology,1992.0,EDP Services
