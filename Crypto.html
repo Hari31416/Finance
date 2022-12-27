@@ -1,0 +1,4374 @@
+<table class="W(100%)">
+  <thead>
+    <tr class="C($tertiaryColor) BdB Bdbc($seperatorColor)">
+      <th
+        class="Ta(start) Pstart(6px) Pend(10px) Whs(nw) Miw(90px) Fz(xs) Py(5px)! Bgc($lv3BgColor) Va(m) Cur(p) Bgc($hoverBgColor):h Fw(400)! Ta(start) Start(0) Pend(10px) Pos(st) Bgc($lv3BgColor) Z(1) Ta(start)!"
+      >
+        <label data-id="" class="Ta(c) Pos(r) Va(tb) Pend(5px) D(n)--print"
+          ><input
+            type="checkbox"
+            class="Pos(a) Op(0) checkbox"
+            aria-label="Select All" /><svg
+            class="Va(m)! H(16px) W(16px) checkbox:f+Stk($linkColor)! checkbox:f+Fill($linkColor)! Stk($plusGray) Fill($plusGray) Cur(p)"
+            width="16"
+            style="stroke-width: 0; vertical-align: bottom"
+            height="16"
+            viewBox="0 0 24 24"
+            data-icon="checkbox-unchecked"
+          >
+            <path
+              d="M3 3h18v18H3V3zm19-2H2c-.553 0-1 .448-1 1v20c0 .552.447 1 1 1h20c.552 0 1-.448 1-1V2c0-.552-.448-1-1-1z"
+            ></path></svg></label
+        >Symbol
+        <div
+          class="W(3px) Pend(5px) Pos(a) Start(100%) T(0) H(100%) Bg($pfColumnFakeShadowGradient) Pe(n)"
+        ></div>
+      </th>
+      <th
+        class="Ta(start) Px(10px) Fz(xs) Py(5px)! Bgc($lv3BgColor) Va(m) Cur(p) Bgc($hoverBgColor):h Fw(400)!"
+      >
+        Name
+      </th>
+      <th
+        class="Ta(end) Pstart(20px) Fz(xs) Py(5px)! Bgc($lv3BgColor) Va(m) Cur(p) Bgc($hoverBgColor):h Fw(400)!"
+      >
+        Price (Intraday)
+      </th>
+      <th
+        class="Ta(end) Pstart(20px) Fz(xs) Py(5px)! Bgc($lv3BgColor) Va(m) Cur(p) Bgc($hoverBgColor):h Fw(400)!"
+      >
+        Change
+      </th>
+      <th
+        class="Ta(end) Pstart(20px) Fz(xs) Py(5px)! Bgc($lv3BgColor) Va(m) Cur(p) Bgc($hoverBgColor):h Fw(400)!"
+      >
+        % Change
+      </th>
+      <th
+        class="Ta(end) Pstart(20px) Fz(xs) Py(5px)! Bgc($lv3BgColor) Va(m) Cur(p) Bgc($hoverBgColor):h C($primaryColor) Fw(500)"
+      >
+        Market Cap<svg
+          class="Va(b)! W(14px) H(14px) Fill($primaryColor)! Stk($primaryColor)! Cur(p)"
+          width="48"
+          style="
+            fill: #000;
+            stroke: #000;
+            stroke-width: 0;
+            vertical-align: bottom;
+          "
+          height="48"
+          viewBox="0 0 48 48"
+          data-icon="caret-down"
+        >
+          <path
+            d="M24.21 33.173l12.727-12.728c.78-.78.78-2.048 0-2.828-.78-.78-2.047-.78-2.828 0l-9.9 9.9-9.9-9.9c-.78-.78-2.047-.78-2.827 0-.78.78-.78 2.047 0 2.828L24.21 33.173z"
+          ></path>
+        </svg>
+      </th>
+      <th
+        class="Ta(end) Pstart(20px) Pend(10px) W(120px) Fz(xs) Py(5px)! Bgc($lv3BgColor) Va(m) Cur(p) Bgc($hoverBgColor):h Fw(400)!"
+      >
+        Volume in Currency (Since 0:00 UTC)
+      </th>
+      <th
+        class="Ta(end) Pstart(20px) Pend(10px) W(120px) Fz(xs) Py(5px)! Bgc($lv3BgColor) Va(m) Fw(400)!"
+      >
+        Volume in Currency (24Hr)
+      </th>
+      <th
+        class="Ta(end) Pstart(20px) Fz(xs) Py(5px)! Bgc($lv3BgColor) Va(m) Fw(400)!"
+      >
+        Total Volume All Currencies (24Hr)
+      </th>
+      <th
+        class="Ta(end) Pstart(20px) Fz(xs) Py(5px)! Bgc($lv3BgColor) Va(m) Fw(400)!"
+      >
+        Circulating Supply
+      </th>
+      <th
+        class="Ta(end) Pstart(20px) Fz(xs) Py(5px)! Bgc($lv3BgColor) Va(m) Fw(400)!"
+      >
+        52 Week Range
+      </th>
+      <th
+        class="Ta(end) Pstart(20px) Fz(xs) Py(5px)! Bgc($lv3BgColor) Va(m) Fw(400)!"
+      >
+        Day Chart
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr
+      class="simpTblRow Bgc($hoverBgColor):h BdB Bdbc($seperatorColor) Bdbc($tableBorderBlue):h H(32px) Bgc($lv2BgColor)"
+    >
+      <td
+        colspan=""
+        class="Va(m) Ta(start) Pstart(6px) Pend(10px) Whs(nw) Miw(90px) Start(0) Pend(10px) simpTblRow:h_Bgc($hoverBgColor) Pos(st) Bgc($lv3BgColor) Z(1) Bgc($lv2BgColor) Ta(start)! Fz(s)"
+        aria-label="Symbol"
+      >
+        <label
+          data-id="portfolio-checkbox"
+          class="Ta(c) Pos(r) Va(tb) Pend(5px) D(n)--print"
+          ><input
+            type="checkbox"
+            class="Pos(a) Op(0) checkbox"
+            aria-label="Select BTC-USD" /><svg
+            class="Va(m)! H(16px) W(16px) checkbox:f+Stk($linkColor)! checkbox:f+Fill($linkColor)! Stk($plusGray) Fill($plusGray) Cur(p)"
+            width="16"
+            style="stroke-width: 0; vertical-align: bottom"
+            height="16"
+            viewBox="0 0 24 24"
+            data-icon="checkbox-unchecked"
+          >
+            <path
+              d="M3 3h18v18H3V3zm19-2H2c-.553 0-1 .448-1 1v20c0 .552.447 1 1 1h20c.552 0 1-.448 1-1V2c0-.552-.448-1-1-1z"
+            ></path></svg></label
+        ><img
+          src="https://s2.coinmarketcap.com/static/img/coins/64x64/1.png"
+          class="W(20px) H(20px) Mend(5px)"
+          alt="Bitcoin USD"
+        /><a
+          data-test="quoteLink"
+          href="/quote/BTC-USD?p=BTC-USD"
+          title="Bitcoin USD"
+          class="Fw(600) C($linkColor)"
+          >BTC-USD</a
+        >
+        <div
+          class="W(3px) Pos(a) Start(100%) T(0) H(100%) Bg($pfColumnFakeShadowGradient) Pe(n) Pend(5px)"
+        ></div>
+      </td>
+      <td colspan="" class="Va(m) Ta(start) Px(10px) Fz(s)" aria-label="Name">
+        Bitcoin USD
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="Price (Intraday)"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class=""
+          data-symbol="BTC-USD"
+          data-field="regularMarketPrice"
+          data-trend="none"
+          data-pricehint="2"
+          value="16883.918"
+          active=""
+          >16,883.92</fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="Change"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class="Fw(600)"
+          data-symbol="BTC-USD"
+          data-field="regularMarketChange"
+          data-trend="txt"
+          data-pricehint="2"
+          value="-21.138672"
+          active=""
+          ><span class="C($negativeColor)">-21.14</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="% Change"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class="Fw(600)"
+          data-symbol="BTC-USD"
+          data-field="regularMarketChangePercent"
+          data-trend="txt"
+          data-pricehint="2"
+          value="-0.12504621"
+          active=""
+          ><span class="C($negativeColor)">-0.13%</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Market Cap"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class=""
+          data-symbol="BTC-USD"
+          data-field="marketCap"
+          data-trend="none"
+          data-pricehint="2"
+          value="324916936704"
+          active=""
+          >324.917B</fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Pend(10px) W(120px) Fz(s)"
+        aria-label="Volume in Currency (Since 0:00 UTC)"
+      >
+        12.351B
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Pend(10px) W(120px) Fz(s)"
+        aria-label="Volume in Currency (24Hr)"
+      >
+        12.351B
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Total Volume All Currencies (24Hr)"
+      >
+        12.351B
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Circulating Supply"
+      >
+        19.244M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="52 Week Range"
+      >
+        <canvas
+          style="width: 140px; height: 23px"
+          width="175"
+          height="28"
+        ></canvas>
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Day Chart"
+      >
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="/chart/BTC-USD?p=BTC-USD"
+          class="C($linkColor)"
+          aria-label="Go to BTC-USD Chart"
+          data-symbol="BTC-USD"
+          ><canvas
+            style="width: 70px; height: 25px"
+            width="87"
+            height="31"
+          ></canvas
+        ></a>
+      </td>
+    </tr>
+    <tr
+      class="simpTblRow Bgc($hoverBgColor):h BdB Bdbc($seperatorColor) Bdbc($tableBorderBlue):h H(32px) Bgc($lv1BgColor)"
+    >
+      <td
+        colspan=""
+        class="Va(m) Ta(start) Pstart(6px) Pend(10px) Whs(nw) Miw(90px) Start(0) Pend(10px) simpTblRow:h_Bgc($hoverBgColor) Pos(st) Bgc($lv3BgColor) Z(1) Bgc($lv1BgColor) Ta(start)! Fz(s)"
+        aria-label="Symbol"
+      >
+        <label
+          data-id="portfolio-checkbox"
+          class="Ta(c) Pos(r) Va(tb) Pend(5px) D(n)--print"
+          ><input
+            type="checkbox"
+            class="Pos(a) Op(0) checkbox"
+            aria-label="Select ETH-USD" /><svg
+            class="Va(m)! H(16px) W(16px) checkbox:f+Stk($linkColor)! checkbox:f+Fill($linkColor)! Stk($plusGray) Fill($plusGray) Cur(p)"
+            width="16"
+            style="stroke-width: 0; vertical-align: bottom"
+            height="16"
+            viewBox="0 0 24 24"
+            data-icon="checkbox-unchecked"
+          >
+            <path
+              d="M3 3h18v18H3V3zm19-2H2c-.553 0-1 .448-1 1v20c0 .552.447 1 1 1h20c.552 0 1-.448 1-1V2c0-.552-.448-1-1-1z"
+            ></path></svg></label
+        ><img
+          src="https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png"
+          class="W(20px) H(20px) Mend(5px)"
+          alt="Ethereum USD"
+        /><a
+          data-test="quoteLink"
+          href="/quote/ETH-USD?p=ETH-USD"
+          title="Ethereum USD"
+          class="Fw(600) C($linkColor)"
+          >ETH-USD</a
+        >
+        <div
+          class="W(3px) Pos(a) Start(100%) T(0) H(100%) Bg($pfColumnFakeShadowGradient) Pe(n) Pend(5px)"
+        ></div>
+      </td>
+      <td colspan="" class="Va(m) Ta(start) Px(10px) Fz(s)" aria-label="Name">
+        Ethereum USD
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="Price (Intraday)"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class=""
+          data-symbol="ETH-USD"
+          data-field="regularMarketPrice"
+          data-trend="none"
+          data-pricehint="2"
+          value="1223.9211"
+          active=""
+          ><span class="e3b14781 e59c8479">1,223.65</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="Change"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class="Fw(600)"
+          data-symbol="ETH-USD"
+          data-field="regularMarketChange"
+          data-trend="txt"
+          data-pricehint="2"
+          value="1.7799072"
+          active=""
+          ><span class="e3b14781 f4be3290 e59c8479">+1.58</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="% Change"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class="Fw(600)"
+          data-symbol="ETH-USD"
+          data-field="regularMarketChangePercent"
+          data-trend="txt"
+          data-pricehint="2"
+          value="0.14563829"
+          active=""
+          ><span class="e3b14781 f4be3290 e59c8479">+0.13%</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Market Cap"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class=""
+          data-symbol="ETH-USD"
+          data-field="marketCap"
+          data-trend="none"
+          data-pricehint="2"
+          value="149775958016"
+          active=""
+          ><span class="e3b14781 e59c8479">149.742B</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Pend(10px) W(120px) Fz(s)"
+        aria-label="Volume in Currency (Since 0:00 UTC)"
+      >
+        3.441B
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Pend(10px) W(120px) Fz(s)"
+        aria-label="Volume in Currency (24Hr)"
+      >
+        3.441B
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Total Volume All Currencies (24Hr)"
+      >
+        3.441B
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Circulating Supply"
+      >
+        122.374M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="52 Week Range"
+      >
+        <canvas
+          style="width: 140px; height: 23px"
+          width="175"
+          height="28"
+        ></canvas>
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Day Chart"
+      >
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="/chart/ETH-USD?p=ETH-USD"
+          class="C($linkColor)"
+          aria-label="Go to ETH-USD Chart"
+          data-symbol="ETH-USD"
+          ><canvas
+            style="width: 70px; height: 25px"
+            width="87"
+            height="31"
+          ></canvas
+        ></a>
+      </td>
+    </tr>
+    <tr
+      class="simpTblRow Bgc($hoverBgColor):h BdB Bdbc($seperatorColor) Bdbc($tableBorderBlue):h H(32px) Bgc($lv2BgColor)"
+    >
+      <td
+        colspan=""
+        class="Va(m) Ta(start) Pstart(6px) Pend(10px) Whs(nw) Miw(90px) Start(0) Pend(10px) simpTblRow:h_Bgc($hoverBgColor) Pos(st) Bgc($lv3BgColor) Z(1) Bgc($lv2BgColor) Ta(start)! Fz(s)"
+        aria-label="Symbol"
+      >
+        <label
+          data-id="portfolio-checkbox"
+          class="Ta(c) Pos(r) Va(tb) Pend(5px) D(n)--print"
+          ><input
+            type="checkbox"
+            class="Pos(a) Op(0) checkbox"
+            aria-label="Select USDT-USD" /><svg
+            class="Va(m)! H(16px) W(16px) checkbox:f+Stk($linkColor)! checkbox:f+Fill($linkColor)! Stk($plusGray) Fill($plusGray) Cur(p)"
+            width="16"
+            style="stroke-width: 0; vertical-align: bottom"
+            height="16"
+            viewBox="0 0 24 24"
+            data-icon="checkbox-unchecked"
+          >
+            <path
+              d="M3 3h18v18H3V3zm19-2H2c-.553 0-1 .448-1 1v20c0 .552.447 1 1 1h20c.552 0 1-.448 1-1V2c0-.552-.448-1-1-1z"
+            ></path></svg></label
+        ><img
+          src="https://s2.coinmarketcap.com/static/img/coins/64x64/825.png"
+          class="W(20px) H(20px) Mend(5px)"
+          alt="Tether USD"
+        /><a
+          data-test="quoteLink"
+          href="/quote/USDT-USD?p=USDT-USD"
+          title="Tether USD"
+          class="Fw(600) C($linkColor)"
+          >USDT-USD</a
+        >
+        <div
+          class="W(3px) Pos(a) Start(100%) T(0) H(100%) Bg($pfColumnFakeShadowGradient) Pe(n) Pend(5px)"
+        ></div>
+      </td>
+      <td colspan="" class="Va(m) Ta(start) Px(10px) Fz(s)" aria-label="Name">
+        Tether USD
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="Price (Intraday)"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class=""
+          data-symbol="USDT-USD"
+          data-field="regularMarketPrice"
+          data-trend="none"
+          data-pricehint="6"
+          value="0.99991333"
+          active=""
+          >0.999913</fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="Change"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class="Fw(600)"
+          data-symbol="USDT-USD"
+          data-field="regularMarketChange"
+          data-trend="txt"
+          data-pricehint="6"
+          value="-0.000019907951"
+          active=""
+          ><span class="C($negativeColor)">-0.000020</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="% Change"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class="Fw(600)"
+          data-symbol="USDT-USD"
+          data-field="regularMarketChangePercent"
+          data-trend="txt"
+          data-pricehint="6"
+          value="-0.00198959"
+          active=""
+          ><span class="C($negativeColor)">-0.00%</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Market Cap"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class=""
+          data-symbol="USDT-USD"
+          data-field="marketCap"
+          data-trend="none"
+          data-pricehint="6"
+          value="66241904640"
+          active=""
+          >66.242B</fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Pend(10px) W(120px) Fz(s)"
+        aria-label="Volume in Currency (Since 0:00 UTC)"
+      >
+        15.425B
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Pend(10px) W(120px) Fz(s)"
+        aria-label="Volume in Currency (24Hr)"
+      >
+        15.425B
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Total Volume All Currencies (24Hr)"
+      >
+        15.425B
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Circulating Supply"
+      >
+        66.248B
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="52 Week Range"
+      >
+        <canvas
+          style="width: 140px; height: 23px"
+          width="175"
+          height="28"
+        ></canvas>
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Day Chart"
+      >
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="/chart/USDT-USD?p=USDT-USD"
+          class="C($linkColor)"
+          aria-label="Go to USDT-USD Chart"
+          data-symbol="USDT-USD"
+          ><canvas
+            style="width: 70px; height: 25px"
+            width="87"
+            height="31"
+          ></canvas
+        ></a>
+      </td>
+    </tr>
+    <tr
+      class="simpTblRow Bgc($hoverBgColor):h BdB Bdbc($seperatorColor) Bdbc($tableBorderBlue):h H(32px) Bgc($lv1BgColor)"
+    >
+      <td
+        colspan=""
+        class="Va(m) Ta(start) Pstart(6px) Pend(10px) Whs(nw) Miw(90px) Start(0) Pend(10px) simpTblRow:h_Bgc($hoverBgColor) Pos(st) Bgc($lv3BgColor) Z(1) Bgc($lv1BgColor) Ta(start)! Fz(s)"
+        aria-label="Symbol"
+      >
+        <label
+          data-id="portfolio-checkbox"
+          class="Ta(c) Pos(r) Va(tb) Pend(5px) D(n)--print"
+          ><input
+            type="checkbox"
+            class="Pos(a) Op(0) checkbox"
+            aria-label="Select USDC-USD" /><svg
+            class="Va(m)! H(16px) W(16px) checkbox:f+Stk($linkColor)! checkbox:f+Fill($linkColor)! Stk($plusGray) Fill($plusGray) Cur(p)"
+            width="16"
+            style="stroke-width: 0; vertical-align: bottom"
+            height="16"
+            viewBox="0 0 24 24"
+            data-icon="checkbox-unchecked"
+          >
+            <path
+              d="M3 3h18v18H3V3zm19-2H2c-.553 0-1 .448-1 1v20c0 .552.447 1 1 1h20c.552 0 1-.448 1-1V2c0-.552-.448-1-1-1z"
+            ></path></svg></label
+        ><img
+          src="https://s2.coinmarketcap.com/static/img/coins/64x64/3408.png"
+          class="W(20px) H(20px) Mend(5px)"
+          alt="USD Coin USD"
+        /><a
+          data-test="quoteLink"
+          href="/quote/USDC-USD?p=USDC-USD"
+          title="USD Coin USD"
+          class="Fw(600) C($linkColor)"
+          >USDC-USD</a
+        >
+        <div
+          class="W(3px) Pos(a) Start(100%) T(0) H(100%) Bg($pfColumnFakeShadowGradient) Pe(n) Pend(5px)"
+        ></div>
+      </td>
+      <td colspan="" class="Va(m) Ta(start) Px(10px) Fz(s)" aria-label="Name">
+        USD Coin USD
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="Price (Intraday)"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class=""
+          data-symbol="USDC-USD"
+          data-field="regularMarketPrice"
+          data-trend="none"
+          data-pricehint="4"
+          value="1.000036"
+          active=""
+          ><span class="e3b14781 e59c8479">1.0000</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="Change"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class="Fw(600)"
+          data-symbol="USDC-USD"
+          data-field="regularMarketChange"
+          data-trend="txt"
+          data-pricehint="4"
+          value="0.000007748604"
+          active=""
+          ><span class="e3b14781 e59c8479">-0.0000</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="% Change"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class="Fw(600)"
+          data-symbol="USDC-USD"
+          data-field="regularMarketChangePercent"
+          data-trend="txt"
+          data-pricehint="4"
+          value="0.00077462"
+          active=""
+          ><span class="e3b14781 ee3e99dd e59c8479"
+            >-0.0035%</span
+          ></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Market Cap"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class=""
+          data-symbol="USDC-USD"
+          data-field="marketCap"
+          data-trend="none"
+          data-pricehint="4"
+          value="44498386944"
+          active=""
+          ><span class="e3b14781 e59c8479">44.497B</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Pend(10px) W(120px) Fz(s)"
+        aria-label="Volume in Currency (Since 0:00 UTC)"
+      >
+        1.495B
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Pend(10px) W(120px) Fz(s)"
+        aria-label="Volume in Currency (24Hr)"
+      >
+        1.495B
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Total Volume All Currencies (24Hr)"
+      >
+        1.495B
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Circulating Supply"
+      >
+        44.497B
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="52 Week Range"
+      >
+        <canvas
+          style="width: 140px; height: 23px"
+          width="175"
+          height="28"
+        ></canvas>
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Day Chart"
+      >
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="/chart/USDC-USD?p=USDC-USD"
+          class="C($linkColor)"
+          aria-label="Go to USDC-USD Chart"
+          data-symbol="USDC-USD"
+          ><canvas
+            style="width: 70px; height: 25px"
+            width="87"
+            height="31"
+          ></canvas
+        ></a>
+      </td>
+    </tr>
+    <tr
+      class="simpTblRow Bgc($hoverBgColor):h BdB Bdbc($seperatorColor) Bdbc($tableBorderBlue):h H(32px) Bgc($lv2BgColor)"
+    >
+      <td
+        colspan=""
+        class="Va(m) Ta(start) Pstart(6px) Pend(10px) Whs(nw) Miw(90px) Start(0) Pend(10px) simpTblRow:h_Bgc($hoverBgColor) Pos(st) Bgc($lv3BgColor) Z(1) Bgc($lv2BgColor) Ta(start)! Fz(s)"
+        aria-label="Symbol"
+      >
+        <label
+          data-id="portfolio-checkbox"
+          class="Ta(c) Pos(r) Va(tb) Pend(5px) D(n)--print"
+          ><input
+            type="checkbox"
+            class="Pos(a) Op(0) checkbox"
+            aria-label="Select BNB-USD" /><svg
+            class="Va(m)! H(16px) W(16px) checkbox:f+Stk($linkColor)! checkbox:f+Fill($linkColor)! Stk($plusGray) Fill($plusGray) Cur(p)"
+            width="16"
+            style="stroke-width: 0; vertical-align: bottom"
+            height="16"
+            viewBox="0 0 24 24"
+            data-icon="checkbox-unchecked"
+          >
+            <path
+              d="M3 3h18v18H3V3zm19-2H2c-.553 0-1 .448-1 1v20c0 .552.447 1 1 1h20c.552 0 1-.448 1-1V2c0-.552-.448-1-1-1z"
+            ></path></svg></label
+        ><img
+          src="https://s2.coinmarketcap.com/static/img/coins/64x64/1839.png"
+          class="W(20px) H(20px) Mend(5px)"
+          alt="BNB USD"
+        /><a
+          data-test="quoteLink"
+          href="/quote/BNB-USD?p=BNB-USD"
+          title="BNB USD"
+          class="Fw(600) C($linkColor)"
+          >BNB-USD</a
+        >
+        <div
+          class="W(3px) Pos(a) Start(100%) T(0) H(100%) Bg($pfColumnFakeShadowGradient) Pe(n) Pend(5px)"
+        ></div>
+      </td>
+      <td colspan="" class="Va(m) Ta(start) Px(10px) Fz(s)" aria-label="Name">
+        BNB USD
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="Price (Intraday)"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class=""
+          data-symbol="BNB-USD"
+          data-field="regularMarketPrice"
+          data-trend="none"
+          data-pricehint="2"
+          value="243.50897"
+          active=""
+          ><span class="e3b14781 f5a023e1">243.54</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="Change"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class="Fw(600)"
+          data-symbol="BNB-USD"
+          data-field="regularMarketChange"
+          data-trend="txt"
+          data-pricehint="2"
+          value="-0.9794922"
+          active=""
+          ><span class="e3b14781 ee3e99dd f5a023e1">-0.90</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="% Change"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class="Fw(600)"
+          data-symbol="BNB-USD"
+          data-field="regularMarketChangePercent"
+          data-trend="txt"
+          data-pricehint="2"
+          value="-0.4006295"
+          active=""
+          ><span class="e3b14781 ee3e99dd f5a023e1">-0.37%</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Market Cap"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class=""
+          data-symbol="BNB-USD"
+          data-field="marketCap"
+          data-trend="none"
+          data-pricehint="2"
+          value="38953054208"
+          active=""
+          ><span class="e3b14781 f5a023e1">38.959B</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Pend(10px) W(120px) Fz(s)"
+        aria-label="Volume in Currency (Since 0:00 UTC)"
+      >
+        273.105M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Pend(10px) W(120px) Fz(s)"
+        aria-label="Volume in Currency (24Hr)"
+      >
+        273.105M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Total Volume All Currencies (24Hr)"
+      >
+        273.105M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Circulating Supply"
+      >
+        159.966M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="52 Week Range"
+      >
+        <canvas
+          style="width: 140px; height: 23px"
+          width="175"
+          height="28"
+        ></canvas>
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Day Chart"
+      >
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="/chart/BNB-USD?p=BNB-USD"
+          class="C($linkColor)"
+          aria-label="Go to BNB-USD Chart"
+          data-symbol="BNB-USD"
+          ><canvas
+            style="width: 70px; height: 25px"
+            width="87"
+            height="31"
+          ></canvas
+        ></a>
+      </td>
+    </tr>
+    <tr
+      class="simpTblRow Bgc($hoverBgColor):h BdB Bdbc($seperatorColor) Bdbc($tableBorderBlue):h H(32px) Bgc($lv1BgColor)"
+    >
+      <td
+        colspan=""
+        class="Va(m) Ta(start) Pstart(6px) Pend(10px) Whs(nw) Miw(90px) Start(0) Pend(10px) simpTblRow:h_Bgc($hoverBgColor) Pos(st) Bgc($lv3BgColor) Z(1) Bgc($lv1BgColor) Ta(start)! Fz(s)"
+        aria-label="Symbol"
+      >
+        <label
+          data-id="portfolio-checkbox"
+          class="Ta(c) Pos(r) Va(tb) Pend(5px) D(n)--print"
+          ><input
+            type="checkbox"
+            class="Pos(a) Op(0) checkbox"
+            aria-label="Select XRP-USD" /><svg
+            class="Va(m)! H(16px) W(16px) checkbox:f+Stk($linkColor)! checkbox:f+Fill($linkColor)! Stk($plusGray) Fill($plusGray) Cur(p)"
+            width="16"
+            style="stroke-width: 0; vertical-align: bottom"
+            height="16"
+            viewBox="0 0 24 24"
+            data-icon="checkbox-unchecked"
+          >
+            <path
+              d="M3 3h18v18H3V3zm19-2H2c-.553 0-1 .448-1 1v20c0 .552.447 1 1 1h20c.552 0 1-.448 1-1V2c0-.552-.448-1-1-1z"
+            ></path></svg></label
+        ><img
+          src="https://s2.coinmarketcap.com/static/img/coins/64x64/52.png"
+          class="W(20px) H(20px) Mend(5px)"
+          alt="XRP USD"
+        /><a
+          data-test="quoteLink"
+          href="/quote/XRP-USD?p=XRP-USD"
+          title="XRP USD"
+          class="Fw(600) C($linkColor)"
+          >XRP-USD</a
+        >
+        <div
+          class="W(3px) Pos(a) Start(100%) T(0) H(100%) Bg($pfColumnFakeShadowGradient) Pe(n) Pend(5px)"
+        ></div>
+      </td>
+      <td colspan="" class="Va(m) Ta(start) Px(10px) Fz(s)" aria-label="Name">
+        XRP USD
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="Price (Intraday)"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class=""
+          data-symbol="XRP-USD"
+          data-field="regularMarketPrice"
+          data-trend="none"
+          data-pricehint="6"
+          value="0.35971615"
+          active=""
+          ><span class="e3b14781 e59c8479">0.3595</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="Change"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class="Fw(600)"
+          data-symbol="XRP-USD"
+          data-field="regularMarketChange"
+          data-trend="txt"
+          data-pricehint="6"
+          value="0.009678662"
+          active=""
+          ><span class="e3b14781 f4be3290 e59c8479">+0.0095</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="% Change"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class="Fw(600)"
+          data-symbol="XRP-USD"
+          data-field="regularMarketChangePercent"
+          data-trend="txt"
+          data-pricehint="6"
+          value="2.7650335"
+          active=""
+          ><span class="e3b14781 f4be3290 e59c8479"
+            >+2.7027%</span
+          ></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Market Cap"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class=""
+          data-symbol="XRP-USD"
+          data-field="marketCap"
+          data-trend="none"
+          data-pricehint="6"
+          value="18109370368"
+          active=""
+          ><span class="e3b14781 e59c8479">18.100B</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Pend(10px) W(120px) Fz(s)"
+        aria-label="Volume in Currency (Since 0:00 UTC)"
+      >
+        885.808M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Pend(10px) W(120px) Fz(s)"
+        aria-label="Volume in Currency (24Hr)"
+      >
+        885.808M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Total Volume All Currencies (24Hr)"
+      >
+        885.808M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Circulating Supply"
+      >
+        50.344B
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="52 Week Range"
+      >
+        <canvas
+          style="width: 140px; height: 23px"
+          width="175"
+          height="28"
+        ></canvas>
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Day Chart"
+      >
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="/chart/XRP-USD?p=XRP-USD"
+          class="C($linkColor)"
+          aria-label="Go to XRP-USD Chart"
+          data-symbol="XRP-USD"
+          ><canvas
+            style="width: 70px; height: 25px"
+            width="87"
+            height="31"
+          ></canvas
+        ></a>
+      </td>
+    </tr>
+    <tr
+      class="simpTblRow Bgc($hoverBgColor):h BdB Bdbc($seperatorColor) Bdbc($tableBorderBlue):h H(32px) Bgc($lv2BgColor)"
+    >
+      <td
+        colspan=""
+        class="Va(m) Ta(start) Pstart(6px) Pend(10px) Whs(nw) Miw(90px) Start(0) Pend(10px) simpTblRow:h_Bgc($hoverBgColor) Pos(st) Bgc($lv3BgColor) Z(1) Bgc($lv2BgColor) Ta(start)! Fz(s)"
+        aria-label="Symbol"
+      >
+        <label
+          data-id="portfolio-checkbox"
+          class="Ta(c) Pos(r) Va(tb) Pend(5px) D(n)--print"
+          ><input
+            type="checkbox"
+            class="Pos(a) Op(0) checkbox"
+            aria-label="Select BUSD-USD" /><svg
+            class="Va(m)! H(16px) W(16px) checkbox:f+Stk($linkColor)! checkbox:f+Fill($linkColor)! Stk($plusGray) Fill($plusGray) Cur(p)"
+            width="16"
+            style="stroke-width: 0; vertical-align: bottom"
+            height="16"
+            viewBox="0 0 24 24"
+            data-icon="checkbox-unchecked"
+          >
+            <path
+              d="M3 3h18v18H3V3zm19-2H2c-.553 0-1 .448-1 1v20c0 .552.447 1 1 1h20c.552 0 1-.448 1-1V2c0-.552-.448-1-1-1z"
+            ></path></svg></label
+        ><img
+          src="https://s2.coinmarketcap.com/static/img/coins/64x64/4687.png"
+          class="W(20px) H(20px) Mend(5px)"
+          alt="Binance USD USD"
+        /><a
+          data-test="quoteLink"
+          href="/quote/BUSD-USD?p=BUSD-USD"
+          title="Binance USD USD"
+          class="Fw(600) C($linkColor)"
+          >BUSD-USD</a
+        >
+        <div
+          class="W(3px) Pos(a) Start(100%) T(0) H(100%) Bg($pfColumnFakeShadowGradient) Pe(n) Pend(5px)"
+        ></div>
+      </td>
+      <td colspan="" class="Va(m) Ta(start) Px(10px) Fz(s)" aria-label="Name">
+        Binance USD USD
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="Price (Intraday)"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class=""
+          data-symbol="BUSD-USD"
+          data-field="regularMarketPrice"
+          data-trend="none"
+          data-pricehint="4"
+          value="1.0001814"
+          active=""
+          ><span class="e3b14781 e59c8479">1.0001</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="Change"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class="Fw(600)"
+          data-symbol="BUSD-USD"
+          data-field="regularMarketChange"
+          data-trend="txt"
+          data-pricehint="4"
+          value="-0.00006318092"
+          active=""
+          ><span class="e3b14781 ee3e99dd e59c8479">-0.0002</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="% Change"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class="Fw(600)"
+          data-symbol="BUSD-USD"
+          data-field="regularMarketChangePercent"
+          data-trend="txt"
+          data-pricehint="4"
+          value="-0.00631343"
+          active=""
+          ><span class="e3b14781 ee3e99dd e59c8479"
+            >-0.0229%</span
+          ></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Market Cap"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class=""
+          data-symbol="BUSD-USD"
+          data-field="marketCap"
+          data-trend="none"
+          data-pricehint="4"
+          value="17303828480"
+          active=""
+          ><span class="e3b14781 e59c8479">17.302B</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Pend(10px) W(120px) Fz(s)"
+        aria-label="Volume in Currency (Since 0:00 UTC)"
+      >
+        2.984B
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Pend(10px) W(120px) Fz(s)"
+        aria-label="Volume in Currency (24Hr)"
+      >
+        2.984B
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Total Volume All Currencies (24Hr)"
+      >
+        2.984B
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Circulating Supply"
+      >
+        17.301B
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="52 Week Range"
+      >
+        <canvas
+          style="width: 140px; height: 23px"
+          width="175"
+          height="28"
+        ></canvas>
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Day Chart"
+      >
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="/chart/BUSD-USD?p=BUSD-USD"
+          class="C($linkColor)"
+          aria-label="Go to BUSD-USD Chart"
+          data-symbol="BUSD-USD"
+          ><canvas
+            style="width: 70px; height: 25px"
+            width="87"
+            height="31"
+          ></canvas
+        ></a>
+      </td>
+    </tr>
+    <tr
+      class="simpTblRow Bgc($hoverBgColor):h BdB Bdbc($seperatorColor) Bdbc($tableBorderBlue):h H(32px) Bgc($lv1BgColor)"
+    >
+      <td
+        colspan=""
+        class="Va(m) Ta(start) Pstart(6px) Pend(10px) Whs(nw) Miw(90px) Start(0) Pend(10px) simpTblRow:h_Bgc($hoverBgColor) Pos(st) Bgc($lv3BgColor) Z(1) Bgc($lv1BgColor) Ta(start)! Fz(s)"
+        aria-label="Symbol"
+      >
+        <label
+          data-id="portfolio-checkbox"
+          class="Ta(c) Pos(r) Va(tb) Pend(5px) D(n)--print"
+          ><input
+            type="checkbox"
+            class="Pos(a) Op(0) checkbox"
+            aria-label="Select DOGE-USD" /><svg
+            class="Va(m)! H(16px) W(16px) checkbox:f+Stk($linkColor)! checkbox:f+Fill($linkColor)! Stk($plusGray) Fill($plusGray) Cur(p)"
+            width="16"
+            style="stroke-width: 0; vertical-align: bottom"
+            height="16"
+            viewBox="0 0 24 24"
+            data-icon="checkbox-unchecked"
+          >
+            <path
+              d="M3 3h18v18H3V3zm19-2H2c-.553 0-1 .448-1 1v20c0 .552.447 1 1 1h20c.552 0 1-.448 1-1V2c0-.552-.448-1-1-1z"
+            ></path></svg></label
+        ><img
+          src="https://s2.coinmarketcap.com/static/img/coins/64x64/74.png"
+          class="W(20px) H(20px) Mend(5px)"
+          alt="Dogecoin USD"
+        /><a
+          data-test="quoteLink"
+          href="/quote/DOGE-USD?p=DOGE-USD"
+          title="Dogecoin USD"
+          class="Fw(600) C($linkColor)"
+          >DOGE-USD</a
+        >
+        <div
+          class="W(3px) Pos(a) Start(100%) T(0) H(100%) Bg($pfColumnFakeShadowGradient) Pe(n) Pend(5px)"
+        ></div>
+      </td>
+      <td colspan="" class="Va(m) Ta(start) Px(10px) Fz(s)" aria-label="Name">
+        Dogecoin USD
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="Price (Intraday)"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class=""
+          data-symbol="DOGE-USD"
+          data-field="regularMarketPrice"
+          data-trend="none"
+          data-pricehint="6"
+          value="0.07516074"
+          active=""
+          ><span class="e3b14781 f5a023e1">0.0752</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="Change"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class="Fw(600)"
+          data-symbol="DOGE-USD"
+          data-field="regularMarketChange"
+          data-trend="txt"
+          data-pricehint="6"
+          value="-0.0011423156"
+          active=""
+          ><span class="e3b14781 ee3e99dd f5a023e1">-0.0011</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="% Change"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class="Fw(600)"
+          data-symbol="DOGE-USD"
+          data-field="regularMarketChangePercent"
+          data-trend="txt"
+          data-pricehint="6"
+          value="-1.4970778"
+          active=""
+          ><span class="e3b14781 ee3e99dd f5a023e1"
+            >-1.4810%</span
+          ></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Market Cap"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class=""
+          data-symbol="DOGE-USD"
+          data-field="marketCap"
+          data-trend="none"
+          data-pricehint="6"
+          value="9971633152"
+          active=""
+          ><span class="e3b14781 f5a023e1">9.972B</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Pend(10px) W(120px) Fz(s)"
+        aria-label="Volume in Currency (Since 0:00 UTC)"
+      >
+        243.943M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Pend(10px) W(120px) Fz(s)"
+        aria-label="Volume in Currency (24Hr)"
+      >
+        243.943M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Total Volume All Currencies (24Hr)"
+      >
+        243.943M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Circulating Supply"
+      >
+        132.671B
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="52 Week Range"
+      >
+        <canvas
+          style="width: 140px; height: 23px"
+          width="175"
+          height="28"
+        ></canvas>
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Day Chart"
+      >
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="/chart/DOGE-USD?p=DOGE-USD"
+          class="C($linkColor)"
+          aria-label="Go to DOGE-USD Chart"
+          data-symbol="DOGE-USD"
+          ><canvas
+            style="width: 70px; height: 25px"
+            width="87"
+            height="31"
+          ></canvas
+        ></a>
+      </td>
+    </tr>
+    <tr
+      class="simpTblRow Bgc($hoverBgColor):h BdB Bdbc($seperatorColor) Bdbc($tableBorderBlue):h H(32px) Bgc($lv2BgColor)"
+    >
+      <td
+        colspan=""
+        class="Va(m) Ta(start) Pstart(6px) Pend(10px) Whs(nw) Miw(90px) Start(0) Pend(10px) simpTblRow:h_Bgc($hoverBgColor) Pos(st) Bgc($lv3BgColor) Z(1) Bgc($lv2BgColor) Ta(start)! Fz(s)"
+        aria-label="Symbol"
+      >
+        <label
+          data-id="portfolio-checkbox"
+          class="Ta(c) Pos(r) Va(tb) Pend(5px) D(n)--print"
+          ><input
+            type="checkbox"
+            class="Pos(a) Op(0) checkbox"
+            aria-label="Select ADA-USD" /><svg
+            class="Va(m)! H(16px) W(16px) checkbox:f+Stk($linkColor)! checkbox:f+Fill($linkColor)! Stk($plusGray) Fill($plusGray) Cur(p)"
+            width="16"
+            style="stroke-width: 0; vertical-align: bottom"
+            height="16"
+            viewBox="0 0 24 24"
+            data-icon="checkbox-unchecked"
+          >
+            <path
+              d="M3 3h18v18H3V3zm19-2H2c-.553 0-1 .448-1 1v20c0 .552.447 1 1 1h20c.552 0 1-.448 1-1V2c0-.552-.448-1-1-1z"
+            ></path></svg></label
+        ><img
+          src="https://s2.coinmarketcap.com/static/img/coins/64x64/2010.png"
+          class="W(20px) H(20px) Mend(5px)"
+          alt="Cardano USD"
+        /><a
+          data-test="quoteLink"
+          href="/quote/ADA-USD?p=ADA-USD"
+          title="Cardano USD"
+          class="Fw(600) C($linkColor)"
+          >ADA-USD</a
+        >
+        <div
+          class="W(3px) Pos(a) Start(100%) T(0) H(100%) Bg($pfColumnFakeShadowGradient) Pe(n) Pend(5px)"
+        ></div>
+      </td>
+      <td colspan="" class="Va(m) Ta(start) Px(10px) Fz(s)" aria-label="Name">
+        Cardano USD
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="Price (Intraday)"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class=""
+          data-symbol="ADA-USD"
+          data-field="regularMarketPrice"
+          data-trend="none"
+          data-pricehint="6"
+          value="0.26377648"
+          active=""
+          ><span class="e3b14781 e59c8479">0.2637</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="Change"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class="Fw(600)"
+          data-symbol="ADA-USD"
+          data-field="regularMarketChange"
+          data-trend="txt"
+          data-pricehint="6"
+          value="0.0029899478"
+          active=""
+          ><span class="e3b14781 f4be3290 e59c8479">+0.0029</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="% Change"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class="Fw(600)"
+          data-symbol="ADA-USD"
+          data-field="regularMarketChangePercent"
+          data-trend="txt"
+          data-pricehint="6"
+          value="1.1465069"
+          active=""
+          ><span class="e3b14781 f4be3290 e59c8479"
+            >+1.1074%</span
+          ></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Market Cap"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class=""
+          data-symbol="ADA-USD"
+          data-field="marketCap"
+          data-trend="none"
+          data-pricehint="6"
+          value="9102825472"
+          active=""
+          ><span class="e3b14781 e59c8479">9.098B</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Pend(10px) W(120px) Fz(s)"
+        aria-label="Volume in Currency (Since 0:00 UTC)"
+      >
+        131.83M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Pend(10px) W(120px) Fz(s)"
+        aria-label="Volume in Currency (24Hr)"
+      >
+        131.83M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Total Volume All Currencies (24Hr)"
+      >
+        131.83M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Circulating Supply"
+      >
+        34.51B
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="52 Week Range"
+      >
+        <canvas
+          style="width: 140px; height: 23px"
+          width="175"
+          height="28"
+        ></canvas>
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Day Chart"
+      >
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="/chart/ADA-USD?p=ADA-USD"
+          class="C($linkColor)"
+          aria-label="Go to ADA-USD Chart"
+          data-symbol="ADA-USD"
+          ><canvas
+            style="width: 70px; height: 25px"
+            width="87"
+            height="31"
+          ></canvas
+        ></a>
+      </td>
+    </tr>
+    <tr
+      class="simpTblRow Bgc($hoverBgColor):h BdB Bdbc($seperatorColor) Bdbc($tableBorderBlue):h H(32px) Bgc($lv1BgColor)"
+    >
+      <td
+        colspan=""
+        class="Va(m) Ta(start) Pstart(6px) Pend(10px) Whs(nw) Miw(90px) Start(0) Pend(10px) simpTblRow:h_Bgc($hoverBgColor) Pos(st) Bgc($lv3BgColor) Z(1) Bgc($lv1BgColor) Ta(start)! Fz(s)"
+        aria-label="Symbol"
+      >
+        <label
+          data-id="portfolio-checkbox"
+          class="Ta(c) Pos(r) Va(tb) Pend(5px) D(n)--print"
+          ><input
+            type="checkbox"
+            class="Pos(a) Op(0) checkbox"
+            aria-label="Select MATIC-USD" /><svg
+            class="Va(m)! H(16px) W(16px) checkbox:f+Stk($linkColor)! checkbox:f+Fill($linkColor)! Stk($plusGray) Fill($plusGray) Cur(p)"
+            width="16"
+            style="stroke-width: 0; vertical-align: bottom"
+            height="16"
+            viewBox="0 0 24 24"
+            data-icon="checkbox-unchecked"
+          >
+            <path
+              d="M3 3h18v18H3V3zm19-2H2c-.553 0-1 .448-1 1v20c0 .552.447 1 1 1h20c.552 0 1-.448 1-1V2c0-.552-.448-1-1-1z"
+            ></path></svg></label
+        ><img
+          src="https://s2.coinmarketcap.com/static/img/coins/64x64/3890.png"
+          class="W(20px) H(20px) Mend(5px)"
+          alt="Polygon USD"
+        /><a
+          data-test="quoteLink"
+          href="/quote/MATIC-USD?p=MATIC-USD"
+          title="Polygon USD"
+          class="Fw(600) C($linkColor)"
+          >MATIC-USD</a
+        >
+        <div
+          class="W(3px) Pos(a) Start(100%) T(0) H(100%) Bg($pfColumnFakeShadowGradient) Pe(n) Pend(5px)"
+        ></div>
+      </td>
+      <td colspan="" class="Va(m) Ta(start) Px(10px) Fz(s)" aria-label="Name">
+        Polygon USD
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="Price (Intraday)"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class=""
+          data-symbol="MATIC-USD"
+          data-field="regularMarketPrice"
+          data-trend="none"
+          data-pricehint="6"
+          value="0.81379974"
+          active=""
+          >0.813800</fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="Change"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class="Fw(600)"
+          data-symbol="MATIC-USD"
+          data-field="regularMarketChange"
+          data-trend="txt"
+          data-pricehint="6"
+          value="0.011680365"
+          active=""
+          ><span class="C($positiveColor)">+0.011680</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="% Change"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class="Fw(600)"
+          data-symbol="MATIC-USD"
+          data-field="regularMarketChangePercent"
+          data-trend="txt"
+          data-pricehint="6"
+          value="1.4561887"
+          active=""
+          ><span class="C($positiveColor)">+1.46%</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Market Cap"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class=""
+          data-symbol="MATIC-USD"
+          data-field="marketCap"
+          data-trend="none"
+          data-pricehint="6"
+          value="7107985408"
+          active=""
+          >7.108B</fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Pend(10px) W(120px) Fz(s)"
+        aria-label="Volume in Currency (Since 0:00 UTC)"
+      >
+        162.918M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Pend(10px) W(120px) Fz(s)"
+        aria-label="Volume in Currency (24Hr)"
+      >
+        162.918M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Total Volume All Currencies (24Hr)"
+      >
+        162.918M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Circulating Supply"
+      >
+        8.734B
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="52 Week Range"
+      >
+        <canvas
+          style="width: 140px; height: 23px"
+          width="175"
+          height="28"
+        ></canvas>
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Day Chart"
+      >
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="/chart/MATIC-USD?p=MATIC-USD"
+          class="C($linkColor)"
+          aria-label="Go to MATIC-USD Chart"
+          data-symbol="MATIC-USD"
+          ><canvas
+            style="width: 70px; height: 25px"
+            width="87"
+            height="31"
+          ></canvas
+        ></a>
+      </td>
+    </tr>
+    <tr
+      class="simpTblRow Bgc($hoverBgColor):h BdB Bdbc($seperatorColor) Bdbc($tableBorderBlue):h H(32px) Bgc($lv2BgColor)"
+    >
+      <td
+        colspan=""
+        class="Va(m) Ta(start) Pstart(6px) Pend(10px) Whs(nw) Miw(90px) Start(0) Pend(10px) simpTblRow:h_Bgc($hoverBgColor) Pos(st) Bgc($lv3BgColor) Z(1) Bgc($lv2BgColor) Ta(start)! Fz(s)"
+        aria-label="Symbol"
+      >
+        <label
+          data-id="portfolio-checkbox"
+          class="Ta(c) Pos(r) Va(tb) Pend(5px) D(n)--print"
+          ><input
+            type="checkbox"
+            class="Pos(a) Op(0) checkbox"
+            aria-label="Select DAI-USD" /><svg
+            class="Va(m)! H(16px) W(16px) checkbox:f+Stk($linkColor)! checkbox:f+Fill($linkColor)! Stk($plusGray) Fill($plusGray) Cur(p)"
+            width="16"
+            style="stroke-width: 0; vertical-align: bottom"
+            height="16"
+            viewBox="0 0 24 24"
+            data-icon="checkbox-unchecked"
+          >
+            <path
+              d="M3 3h18v18H3V3zm19-2H2c-.553 0-1 .448-1 1v20c0 .552.447 1 1 1h20c.552 0 1-.448 1-1V2c0-.552-.448-1-1-1z"
+            ></path></svg></label
+        ><img
+          src="https://s2.coinmarketcap.com/static/img/coins/64x64/4943.png"
+          class="W(20px) H(20px) Mend(5px)"
+          alt="Dai USD"
+        /><a
+          data-test="quoteLink"
+          href="/quote/DAI-USD?p=DAI-USD"
+          title="Dai USD"
+          class="Fw(600) C($linkColor)"
+          >DAI-USD</a
+        >
+        <div
+          class="W(3px) Pos(a) Start(100%) T(0) H(100%) Bg($pfColumnFakeShadowGradient) Pe(n) Pend(5px)"
+        ></div>
+      </td>
+      <td colspan="" class="Va(m) Ta(start) Px(10px) Fz(s)" aria-label="Name">
+        Dai USD
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="Price (Intraday)"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class=""
+          data-symbol="DAI-USD"
+          data-field="regularMarketPrice"
+          data-trend="none"
+          data-pricehint="6"
+          value="0.9997166"
+          active=""
+          >0.999717</fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="Change"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class="Fw(600)"
+          data-symbol="DAI-USD"
+          data-field="regularMarketChange"
+          data-trend="txt"
+          data-pricehint="6"
+          value="-0.00023442507"
+          active=""
+          ><span class="C($negativeColor)">-0.000234</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="% Change"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class="Fw(600)"
+          data-symbol="DAI-USD"
+          data-field="regularMarketChangePercent"
+          data-trend="txt"
+          data-pricehint="6"
+          value="-0.02344013"
+          active=""
+          ><span class="C($negativeColor)">-0.02%</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Market Cap"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class=""
+          data-symbol="DAI-USD"
+          data-field="marketCap"
+          data-trend="none"
+          data-pricehint="6"
+          value="5834015744"
+          active=""
+          >5.834B</fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Pend(10px) W(120px) Fz(s)"
+        aria-label="Volume in Currency (Since 0:00 UTC)"
+      >
+        110.354M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Pend(10px) W(120px) Fz(s)"
+        aria-label="Volume in Currency (24Hr)"
+      >
+        110.354M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Total Volume All Currencies (24Hr)"
+      >
+        110.354M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Circulating Supply"
+      >
+        5.836B
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="52 Week Range"
+      >
+        <canvas
+          style="width: 140px; height: 23px"
+          width="175"
+          height="28"
+        ></canvas>
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Day Chart"
+      >
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="/chart/DAI-USD?p=DAI-USD"
+          class="C($linkColor)"
+          aria-label="Go to DAI-USD Chart"
+          data-symbol="DAI-USD"
+          ><canvas
+            style="width: 70px; height: 25px"
+            width="87"
+            height="31"
+          ></canvas
+        ></a>
+      </td>
+    </tr>
+    <tr
+      class="simpTblRow Bgc($hoverBgColor):h BdB Bdbc($seperatorColor) Bdbc($tableBorderBlue):h H(32px) Bgc($lv1BgColor)"
+    >
+      <td
+        colspan=""
+        class="Va(m) Ta(start) Pstart(6px) Pend(10px) Whs(nw) Miw(90px) Start(0) Pend(10px) simpTblRow:h_Bgc($hoverBgColor) Pos(st) Bgc($lv3BgColor) Z(1) Bgc($lv1BgColor) Ta(start)! Fz(s)"
+        aria-label="Symbol"
+      >
+        <label
+          data-id="portfolio-checkbox"
+          class="Ta(c) Pos(r) Va(tb) Pend(5px) D(n)--print"
+          ><input
+            type="checkbox"
+            class="Pos(a) Op(0) checkbox"
+            aria-label="Select WTRX-USD" /><svg
+            class="Va(m)! H(16px) W(16px) checkbox:f+Stk($linkColor)! checkbox:f+Fill($linkColor)! Stk($plusGray) Fill($plusGray) Cur(p)"
+            width="16"
+            style="stroke-width: 0; vertical-align: bottom"
+            height="16"
+            viewBox="0 0 24 24"
+            data-icon="checkbox-unchecked"
+          >
+            <path
+              d="M3 3h18v18H3V3zm19-2H2c-.553 0-1 .448-1 1v20c0 .552.447 1 1 1h20c.552 0 1-.448 1-1V2c0-.552-.448-1-1-1z"
+            ></path></svg></label
+        ><img
+          src="https://s2.coinmarketcap.com/static/img/coins/64x64/18579.png"
+          class="W(20px) H(20px) Mend(5px)"
+          alt="Wrapped TRON USD"
+        /><a
+          data-test="quoteLink"
+          href="/quote/WTRX-USD?p=WTRX-USD"
+          title="Wrapped TRON USD"
+          class="Fw(600) C($linkColor)"
+          >WTRX-USD</a
+        >
+        <div
+          class="W(3px) Pos(a) Start(100%) T(0) H(100%) Bg($pfColumnFakeShadowGradient) Pe(n) Pend(5px)"
+        ></div>
+      </td>
+      <td colspan="" class="Va(m) Ta(start) Px(10px) Fz(s)" aria-label="Name">
+        Wrapped TRON USD
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="Price (Intraday)"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class=""
+          data-symbol="WTRX-USD"
+          data-field="regularMarketPrice"
+          data-trend="none"
+          data-pricehint="6"
+          value="0.054621853"
+          active=""
+          ><span class="e3b14781 e59c8479">0.0546</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="Change"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class="Fw(600)"
+          data-symbol="WTRX-USD"
+          data-field="regularMarketChange"
+          data-trend="txt"
+          data-pricehint="6"
+          value="-0.00012220442"
+          active=""
+          ><span class="e3b14781 ee3e99dd f5a023e1">-0.0001</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="% Change"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class="Fw(600)"
+          data-symbol="WTRX-USD"
+          data-field="regularMarketChangePercent"
+          data-trend="txt"
+          data-pricehint="6"
+          value="-0.2232275"
+          active=""
+          ><span class="e3b14781 ee3e99dd f5a023e1"
+            >-0.2223%</span
+          ></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Market Cap"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class=""
+          data-symbol="WTRX-USD"
+          data-field="marketCap"
+          data-trend="none"
+          data-pricehint="6"
+          value="5553736192"
+          active=""
+          ><span class="e3b14781 e59c8479">5.554B</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Pend(10px) W(120px) Fz(s)"
+        aria-label="Volume in Currency (Since 0:00 UTC)"
+      >
+        941,377
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Pend(10px) W(120px) Fz(s)"
+        aria-label="Volume in Currency (24Hr)"
+      >
+        941,377
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Total Volume All Currencies (24Hr)"
+      >
+        941,377
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Circulating Supply"
+      >
+        101.676B
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="52 Week Range"
+      >
+        <canvas
+          style="width: 140px; height: 23px"
+          width="175"
+          height="28"
+        ></canvas>
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Day Chart"
+      >
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="/chart/WTRX-USD?p=WTRX-USD"
+          class="C($linkColor)"
+          aria-label="Go to WTRX-USD Chart"
+          data-symbol="WTRX-USD"
+          ><canvas
+            style="width: 70px; height: 25px"
+            width="87"
+            height="31"
+          ></canvas
+        ></a>
+      </td>
+    </tr>
+    <tr
+      class="simpTblRow Bgc($hoverBgColor):h BdB Bdbc($seperatorColor) Bdbc($tableBorderBlue):h H(32px) Bgc($lv2BgColor)"
+    >
+      <td
+        colspan=""
+        class="Va(m) Ta(start) Pstart(6px) Pend(10px) Whs(nw) Miw(90px) Start(0) Pend(10px) simpTblRow:h_Bgc($hoverBgColor) Pos(st) Bgc($lv3BgColor) Z(1) Bgc($lv2BgColor) Ta(start)! Fz(s)"
+        aria-label="Symbol"
+      >
+        <label
+          data-id="portfolio-checkbox"
+          class="Ta(c) Pos(r) Va(tb) Pend(5px) D(n)--print"
+          ><input
+            type="checkbox"
+            class="Pos(a) Op(0) checkbox"
+            aria-label="Select DOT-USD" /><svg
+            class="Va(m)! H(16px) W(16px) checkbox:f+Stk($linkColor)! checkbox:f+Fill($linkColor)! Stk($plusGray) Fill($plusGray) Cur(p)"
+            width="16"
+            style="stroke-width: 0; vertical-align: bottom"
+            height="16"
+            viewBox="0 0 24 24"
+            data-icon="checkbox-unchecked"
+          >
+            <path
+              d="M3 3h18v18H3V3zm19-2H2c-.553 0-1 .448-1 1v20c0 .552.447 1 1 1h20c.552 0 1-.448 1-1V2c0-.552-.448-1-1-1z"
+            ></path></svg></label
+        ><img
+          src="https://s2.coinmarketcap.com/static/img/coins/64x64/6636.png"
+          class="W(20px) H(20px) Mend(5px)"
+          alt="Polkadot USD"
+        /><a
+          data-test="quoteLink"
+          href="/quote/DOT-USD?p=DOT-USD"
+          title="Polkadot USD"
+          class="Fw(600) C($linkColor)"
+          >DOT-USD</a
+        >
+        <div
+          class="W(3px) Pos(a) Start(100%) T(0) H(100%) Bg($pfColumnFakeShadowGradient) Pe(n) Pend(5px)"
+        ></div>
+      </td>
+      <td colspan="" class="Va(m) Ta(start) Px(10px) Fz(s)" aria-label="Name">
+        Polkadot USD
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="Price (Intraday)"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class=""
+          data-symbol="DOT-USD"
+          data-field="regularMarketPrice"
+          data-trend="none"
+          data-pricehint="4"
+          value="4.5187573"
+          active=""
+          ><span class="e3b14781 e59c8479">4.5184</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="Change"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class="Fw(600)"
+          data-symbol="DOT-USD"
+          data-field="regularMarketChange"
+          data-trend="txt"
+          data-pricehint="4"
+          value="0.023522377"
+          active=""
+          ><span class="e3b14781 f4be3290 e59c8479">+0.0235</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="% Change"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class="Fw(600)"
+          data-symbol="DOT-USD"
+          data-field="regularMarketChangePercent"
+          data-trend="txt"
+          data-pricehint="4"
+          value="0.5232668"
+          active=""
+          ><span class="e3b14781 f4be3290 e59c8479"
+            >+0.5232%</span
+          ></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Market Cap"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class=""
+          data-symbol="DOT-USD"
+          data-field="marketCap"
+          data-trend="none"
+          data-pricehint="4"
+          value="5199062528"
+          active=""
+          ><span class="e3b14781 e59c8479">5.199B</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Pend(10px) W(120px) Fz(s)"
+        aria-label="Volume in Currency (Since 0:00 UTC)"
+      >
+        97.413M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Pend(10px) W(120px) Fz(s)"
+        aria-label="Volume in Currency (24Hr)"
+      >
+        97.413M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Total Volume All Currencies (24Hr)"
+      >
+        97.413M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Circulating Supply"
+      >
+        1.151B
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="52 Week Range"
+      >
+        <canvas
+          style="width: 140px; height: 23px"
+          width="175"
+          height="28"
+        ></canvas>
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Day Chart"
+      >
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="/chart/DOT-USD?p=DOT-USD"
+          class="C($linkColor)"
+          aria-label="Go to DOT-USD Chart"
+          data-symbol="DOT-USD"
+          ><canvas
+            style="width: 70px; height: 25px"
+            width="87"
+            height="31"
+          ></canvas
+        ></a>
+      </td>
+    </tr>
+    <tr
+      class="simpTblRow Bgc($hoverBgColor):h BdB Bdbc($seperatorColor) Bdbc($tableBorderBlue):h H(32px) Bgc($lv1BgColor)"
+    >
+      <td
+        colspan=""
+        class="Va(m) Ta(start) Pstart(6px) Pend(10px) Whs(nw) Miw(90px) Start(0) Pend(10px) simpTblRow:h_Bgc($hoverBgColor) Pos(st) Bgc($lv3BgColor) Z(1) Bgc($lv1BgColor) Ta(start)! Fz(s)"
+        aria-label="Symbol"
+      >
+        <label
+          data-id="portfolio-checkbox"
+          class="Ta(c) Pos(r) Va(tb) Pend(5px) D(n)--print"
+          ><input
+            type="checkbox"
+            class="Pos(a) Op(0) checkbox"
+            aria-label="Select LTC-USD" /><svg
+            class="Va(m)! H(16px) W(16px) checkbox:f+Stk($linkColor)! checkbox:f+Fill($linkColor)! Stk($plusGray) Fill($plusGray) Cur(p)"
+            width="16"
+            style="stroke-width: 0; vertical-align: bottom"
+            height="16"
+            viewBox="0 0 24 24"
+            data-icon="checkbox-unchecked"
+          >
+            <path
+              d="M3 3h18v18H3V3zm19-2H2c-.553 0-1 .448-1 1v20c0 .552.447 1 1 1h20c.552 0 1-.448 1-1V2c0-.552-.448-1-1-1z"
+            ></path></svg></label
+        ><img
+          src="https://s2.coinmarketcap.com/static/img/coins/64x64/2.png"
+          class="W(20px) H(20px) Mend(5px)"
+          alt="Litecoin USD"
+        /><a
+          data-test="quoteLink"
+          href="/quote/LTC-USD?p=LTC-USD"
+          title="Litecoin USD"
+          class="Fw(600) C($linkColor)"
+          >LTC-USD</a
+        >
+        <div
+          class="W(3px) Pos(a) Start(100%) T(0) H(100%) Bg($pfColumnFakeShadowGradient) Pe(n) Pend(5px)"
+        ></div>
+      </td>
+      <td colspan="" class="Va(m) Ta(start) Px(10px) Fz(s)" aria-label="Name">
+        Litecoin USD
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="Price (Intraday)"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class=""
+          data-symbol="LTC-USD"
+          data-field="regularMarketPrice"
+          data-trend="none"
+          data-pricehint="2"
+          value="70.467865"
+          active=""
+          ><span class="e3b14781 e59c8479">70.46</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="Change"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class="Fw(600)"
+          data-symbol="LTC-USD"
+          data-field="regularMarketChange"
+          data-trend="txt"
+          data-pricehint="2"
+          value="1.2419281"
+          active=""
+          ><span class="e3b14781 f4be3290 e59c8479">+1.23</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="% Change"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class="Fw(600)"
+          data-symbol="LTC-USD"
+          data-field="regularMarketChangePercent"
+          data-trend="txt"
+          data-pricehint="2"
+          value="1.7940149"
+          active=""
+          ><span class="e3b14781 f4be3290 e59c8479">+1.78%</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Market Cap"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class=""
+          data-symbol="LTC-USD"
+          data-field="marketCap"
+          data-trend="none"
+          data-pricehint="2"
+          value="5067985920"
+          active=""
+          ><span class="e3b14781 e59c8479">5.068B</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Pend(10px) W(120px) Fz(s)"
+        aria-label="Volume in Currency (Since 0:00 UTC)"
+      >
+        438.154M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Pend(10px) W(120px) Fz(s)"
+        aria-label="Volume in Currency (24Hr)"
+      >
+        438.154M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Total Volume All Currencies (24Hr)"
+      >
+        438.154M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Circulating Supply"
+      >
+        71.919M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="52 Week Range"
+      >
+        <canvas
+          style="width: 140px; height: 23px"
+          width="175"
+          height="28"
+        ></canvas>
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Day Chart"
+      >
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="/chart/LTC-USD?p=LTC-USD"
+          class="C($linkColor)"
+          aria-label="Go to LTC-USD Chart"
+          data-symbol="LTC-USD"
+          ><canvas
+            style="width: 70px; height: 25px"
+            width="87"
+            height="31"
+          ></canvas
+        ></a>
+      </td>
+    </tr>
+    <tr
+      class="simpTblRow Bgc($hoverBgColor):h BdB Bdbc($seperatorColor) Bdbc($tableBorderBlue):h H(32px) Bgc($lv2BgColor)"
+    >
+      <td
+        colspan=""
+        class="Va(m) Ta(start) Pstart(6px) Pend(10px) Whs(nw) Miw(90px) Start(0) Pend(10px) simpTblRow:h_Bgc($hoverBgColor) Pos(st) Bgc($lv3BgColor) Z(1) Bgc($lv2BgColor) Ta(start)! Fz(s)"
+        aria-label="Symbol"
+      >
+        <label
+          data-id="portfolio-checkbox"
+          class="Ta(c) Pos(r) Va(tb) Pend(5px) D(n)--print"
+          ><input
+            type="checkbox"
+            class="Pos(a) Op(0) checkbox"
+            aria-label="Select TRX-USD" /><svg
+            class="Va(m)! H(16px) W(16px) checkbox:f+Stk($linkColor)! checkbox:f+Fill($linkColor)! Stk($plusGray) Fill($plusGray) Cur(p)"
+            width="16"
+            style="stroke-width: 0; vertical-align: bottom"
+            height="16"
+            viewBox="0 0 24 24"
+            data-icon="checkbox-unchecked"
+          >
+            <path
+              d="M3 3h18v18H3V3zm19-2H2c-.553 0-1 .448-1 1v20c0 .552.447 1 1 1h20c.552 0 1-.448 1-1V2c0-.552-.448-1-1-1z"
+            ></path></svg></label
+        ><img
+          src="https://s2.coinmarketcap.com/static/img/coins/64x64/1958.png"
+          class="W(20px) H(20px) Mend(5px)"
+          alt="TRON USD"
+        /><a
+          data-test="quoteLink"
+          href="/quote/TRX-USD?p=TRX-USD"
+          title="TRON USD"
+          class="Fw(600) C($linkColor)"
+          >TRX-USD</a
+        >
+        <div
+          class="W(3px) Pos(a) Start(100%) T(0) H(100%) Bg($pfColumnFakeShadowGradient) Pe(n) Pend(5px)"
+        ></div>
+      </td>
+      <td colspan="" class="Va(m) Ta(start) Px(10px) Fz(s)" aria-label="Name">
+        TRON USD
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="Price (Intraday)"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class=""
+          data-symbol="TRX-USD"
+          data-field="regularMarketPrice"
+          data-trend="none"
+          data-pricehint="6"
+          value="0.054614343"
+          active=""
+          ><span class="e3b14781 e59c8479">0.0546</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="Change"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class="Fw(600)"
+          data-symbol="TRX-USD"
+          data-field="regularMarketChange"
+          data-trend="txt"
+          data-pricehint="6"
+          value="-0.00015044212"
+          active=""
+          ><span class="e3b14781 ee3e99dd e59c8479">-0.0002</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="% Change"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class="Fw(600)"
+          data-symbol="TRX-USD"
+          data-field="regularMarketChangePercent"
+          data-trend="txt"
+          data-pricehint="6"
+          value="-0.2747088"
+          active=""
+          ><span class="e3b14781 ee3e99dd e59c8479"
+            >-0.2857%</span
+          ></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Market Cap"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class=""
+          data-symbol="TRX-USD"
+          data-field="marketCap"
+          data-trend="none"
+          data-pricehint="6"
+          value="5023791616"
+          active=""
+          ><span class="e3b14781 e59c8479">5.023B</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Pend(10px) W(120px) Fz(s)"
+        aria-label="Volume in Currency (Since 0:00 UTC)"
+      >
+        118.3M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Pend(10px) W(120px) Fz(s)"
+        aria-label="Volume in Currency (24Hr)"
+      >
+        118.3M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Total Volume All Currencies (24Hr)"
+      >
+        118.3M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Circulating Supply"
+      >
+        91.987B
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="52 Week Range"
+      >
+        <canvas
+          style="width: 140px; height: 23px"
+          width="175"
+          height="28"
+        ></canvas>
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Day Chart"
+      >
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="/chart/TRX-USD?p=TRX-USD"
+          class="C($linkColor)"
+          aria-label="Go to TRX-USD Chart"
+          data-symbol="TRX-USD"
+          ><canvas
+            style="width: 70px; height: 25px"
+            width="87"
+            height="31"
+          ></canvas
+        ></a>
+      </td>
+    </tr>
+    <tr
+      class="simpTblRow Bgc($hoverBgColor):h BdB Bdbc($seperatorColor) Bdbc($tableBorderBlue):h H(32px) Bgc($lv1BgColor)"
+    >
+      <td
+        colspan=""
+        class="Va(m) Ta(start) Pstart(6px) Pend(10px) Whs(nw) Miw(90px) Start(0) Pend(10px) simpTblRow:h_Bgc($hoverBgColor) Pos(st) Bgc($lv3BgColor) Z(1) Bgc($lv1BgColor) Ta(start)! Fz(s)"
+        aria-label="Symbol"
+      >
+        <label
+          data-id="portfolio-checkbox"
+          class="Ta(c) Pos(r) Va(tb) Pend(5px) D(n)--print"
+          ><input
+            type="checkbox"
+            class="Pos(a) Op(0) checkbox"
+            aria-label="Select SHIB-USD" /><svg
+            class="Va(m)! H(16px) W(16px) checkbox:f+Stk($linkColor)! checkbox:f+Fill($linkColor)! Stk($plusGray) Fill($plusGray) Cur(p)"
+            width="16"
+            style="stroke-width: 0; vertical-align: bottom"
+            height="16"
+            viewBox="0 0 24 24"
+            data-icon="checkbox-unchecked"
+          >
+            <path
+              d="M3 3h18v18H3V3zm19-2H2c-.553 0-1 .448-1 1v20c0 .552.447 1 1 1h20c.552 0 1-.448 1-1V2c0-.552-.448-1-1-1z"
+            ></path></svg></label
+        ><img
+          src="https://s2.coinmarketcap.com/static/img/coins/64x64/5994.png"
+          class="W(20px) H(20px) Mend(5px)"
+          alt="Shiba Inu USD"
+        /><a
+          data-test="quoteLink"
+          href="/quote/SHIB-USD?p=SHIB-USD"
+          title="Shiba Inu USD"
+          class="Fw(600) C($linkColor)"
+          >SHIB-USD</a
+        >
+        <div
+          class="W(3px) Pos(a) Start(100%) T(0) H(100%) Bg($pfColumnFakeShadowGradient) Pe(n) Pend(5px)"
+        ></div>
+      </td>
+      <td colspan="" class="Va(m) Ta(start) Px(10px) Fz(s)" aria-label="Name">
+        Shiba Inu USD
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="Price (Intraday)"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class=""
+          data-symbol="SHIB-USD"
+          data-field="regularMarketPrice"
+          data-trend="none"
+          data-pricehint="8"
+          value="0.000008292213"
+          active=""
+          >0.00000829</fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="Change"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class="Fw(600)"
+          data-symbol="SHIB-USD"
+          data-field="regularMarketChange"
+          data-trend="txt"
+          data-pricehint="8"
+          value="-4.470712e-8"
+          active=""
+          ><span class="C($negativeColor)">-0.00000004</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="% Change"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class="Fw(600)"
+          data-symbol="SHIB-USD"
+          data-field="regularMarketChangePercent"
+          data-trend="txt"
+          data-pricehint="8"
+          value="-0.53624904"
+          active=""
+          ><span class="C($negativeColor)">-0.54%</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Market Cap"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class=""
+          data-symbol="SHIB-USD"
+          data-field="marketCap"
+          data-trend="none"
+          data-pricehint="8"
+          value="4552949760"
+          active=""
+          >4.553B</fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Pend(10px) W(120px) Fz(s)"
+        aria-label="Volume in Currency (Since 0:00 UTC)"
+      >
+        54.02M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Pend(10px) W(120px) Fz(s)"
+        aria-label="Volume in Currency (24Hr)"
+      >
+        54.02M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Total Volume All Currencies (24Hr)"
+      >
+        54.02M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Circulating Supply"
+      >
+        549.063T
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="52 Week Range"
+      >
+        <canvas
+          style="width: 140px; height: 23px"
+          width="175"
+          height="28"
+        ></canvas>
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Day Chart"
+      >
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="/chart/SHIB-USD?p=SHIB-USD"
+          class="C($linkColor)"
+          aria-label="Go to SHIB-USD Chart"
+          data-symbol="SHIB-USD"
+          ><canvas
+            style="width: 70px; height: 25px"
+            width="87"
+            height="31"
+          ></canvas
+        ></a>
+      </td>
+    </tr>
+    <tr
+      class="simpTblRow Bgc($hoverBgColor):h BdB Bdbc($seperatorColor) Bdbc($tableBorderBlue):h H(32px) Bgc($lv2BgColor)"
+    >
+      <td
+        colspan=""
+        class="Va(m) Ta(start) Pstart(6px) Pend(10px) Whs(nw) Miw(90px) Start(0) Pend(10px) simpTblRow:h_Bgc($hoverBgColor) Pos(st) Bgc($lv3BgColor) Z(1) Bgc($lv2BgColor) Ta(start)! Fz(s)"
+        aria-label="Symbol"
+      >
+        <label
+          data-id="portfolio-checkbox"
+          class="Ta(c) Pos(r) Va(tb) Pend(5px) D(n)--print"
+          ><input
+            type="checkbox"
+            class="Pos(a) Op(0) checkbox"
+            aria-label="Select STETH-USD" /><svg
+            class="Va(m)! H(16px) W(16px) checkbox:f+Stk($linkColor)! checkbox:f+Fill($linkColor)! Stk($plusGray) Fill($plusGray) Cur(p)"
+            width="16"
+            style="stroke-width: 0; vertical-align: bottom"
+            height="16"
+            viewBox="0 0 24 24"
+            data-icon="checkbox-unchecked"
+          >
+            <path
+              d="M3 3h18v18H3V3zm19-2H2c-.553 0-1 .448-1 1v20c0 .552.447 1 1 1h20c.552 0 1-.448 1-1V2c0-.552-.448-1-1-1z"
+            ></path></svg></label
+        ><img
+          src="https://s2.coinmarketcap.com/static/img/coins/64x64/8085.png"
+          class="W(20px) H(20px) Mend(5px)"
+          alt="Lido Staked ETH USD"
+        /><a
+          data-test="quoteLink"
+          href="/quote/STETH-USD?p=STETH-USD"
+          title="Lido Staked ETH USD"
+          class="Fw(600) C($linkColor)"
+          >STETH-USD</a
+        >
+        <div
+          class="W(3px) Pos(a) Start(100%) T(0) H(100%) Bg($pfColumnFakeShadowGradient) Pe(n) Pend(5px)"
+        ></div>
+      </td>
+      <td colspan="" class="Va(m) Ta(start) Px(10px) Fz(s)" aria-label="Name">
+        Lido Staked ETH USD
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="Price (Intraday)"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class=""
+          data-symbol="STETH-USD"
+          data-field="regularMarketPrice"
+          data-trend="none"
+          data-pricehint="2"
+          value="1195.808"
+          active=""
+          ><span class="e3b14781 e59c8479">1,195.66</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="Change"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class="Fw(600)"
+          data-symbol="STETH-USD"
+          data-field="regularMarketChange"
+          data-trend="txt"
+          data-pricehint="2"
+          value="7.9210205"
+          active=""
+          ><span class="e3b14781 f4be3290 e59c8479">+7.83</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="% Change"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class="Fw(600)"
+          data-symbol="STETH-USD"
+          data-field="regularMarketChangePercent"
+          data-trend="txt"
+          data-pricehint="2"
+          value="0.6668227"
+          active=""
+          ><span class="e3b14781 f4be3290 e59c8479">+0.66%</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Market Cap"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class=""
+          data-symbol="STETH-USD"
+          data-field="marketCap"
+          data-trend="none"
+          data-pricehint="2"
+          value="4170653184"
+          active=""
+          ><span class="e3b14781 e59c8479">4.170B</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Pend(10px) W(120px) Fz(s)"
+        aria-label="Volume in Currency (Since 0:00 UTC)"
+      >
+        8.791M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Pend(10px) W(120px) Fz(s)"
+        aria-label="Volume in Currency (24Hr)"
+      >
+        8.791M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Total Volume All Currencies (24Hr)"
+      >
+        8.791M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Circulating Supply"
+      >
+        3.488M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="52 Week Range"
+      >
+        <canvas
+          style="width: 140px; height: 23px"
+          width="175"
+          height="28"
+        ></canvas>
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Day Chart"
+      >
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="/chart/STETH-USD?p=STETH-USD"
+          class="C($linkColor)"
+          aria-label="Go to STETH-USD Chart"
+          data-symbol="STETH-USD"
+          ><canvas
+            style="width: 70px; height: 25px"
+            width="87"
+            height="31"
+          ></canvas
+        ></a>
+      </td>
+    </tr>
+    <tr
+      class="simpTblRow Bgc($hoverBgColor):h BdB Bdbc($seperatorColor) Bdbc($tableBorderBlue):h H(32px) Bgc($lv1BgColor)"
+    >
+      <td
+        colspan=""
+        class="Va(m) Ta(start) Pstart(6px) Pend(10px) Whs(nw) Miw(90px) Start(0) Pend(10px) simpTblRow:h_Bgc($hoverBgColor) Pos(st) Bgc($lv3BgColor) Z(1) Bgc($lv1BgColor) Ta(start)! Fz(s)"
+        aria-label="Symbol"
+      >
+        <label
+          data-id="portfolio-checkbox"
+          class="Ta(c) Pos(r) Va(tb) Pend(5px) D(n)--print"
+          ><input
+            type="checkbox"
+            class="Pos(a) Op(0) checkbox"
+            aria-label="Select SOL-USD" /><svg
+            class="Va(m)! H(16px) W(16px) checkbox:f+Stk($linkColor)! checkbox:f+Fill($linkColor)! Stk($plusGray) Fill($plusGray) Cur(p)"
+            width="16"
+            style="stroke-width: 0; vertical-align: bottom"
+            height="16"
+            viewBox="0 0 24 24"
+            data-icon="checkbox-unchecked"
+          >
+            <path
+              d="M3 3h18v18H3V3zm19-2H2c-.553 0-1 .448-1 1v20c0 .552.447 1 1 1h20c.552 0 1-.448 1-1V2c0-.552-.448-1-1-1z"
+            ></path></svg></label
+        ><img
+          src="https://s2.coinmarketcap.com/static/img/coins/64x64/5426.png"
+          class="W(20px) H(20px) Mend(5px)"
+          alt="Solana USD"
+        /><a
+          data-test="quoteLink"
+          href="/quote/SOL-USD?p=SOL-USD"
+          title="Solana USD"
+          class="Fw(600) C($linkColor)"
+          >SOL-USD</a
+        >
+        <div
+          class="W(3px) Pos(a) Start(100%) T(0) H(100%) Bg($pfColumnFakeShadowGradient) Pe(n) Pend(5px)"
+        ></div>
+      </td>
+      <td colspan="" class="Va(m) Ta(start) Px(10px) Fz(s)" aria-label="Name">
+        Solana USD
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="Price (Intraday)"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class=""
+          data-symbol="SOL-USD"
+          data-field="regularMarketPrice"
+          data-trend="none"
+          data-pricehint="2"
+          value="11.276239"
+          active=""
+          >11.28</fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="Change"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class="Fw(600)"
+          data-symbol="SOL-USD"
+          data-field="regularMarketChange"
+          data-trend="txt"
+          data-pricehint="2"
+          value="-0.15164185"
+          active=""
+          ><span class="C($negativeColor)">-0.15</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="% Change"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class="Fw(600)"
+          data-symbol="SOL-USD"
+          data-field="regularMarketChangePercent"
+          data-trend="txt"
+          data-pricehint="2"
+          value="-1.3269498"
+          active=""
+          ><span class="C($negativeColor)">-1.33%</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Market Cap"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class=""
+          data-symbol="SOL-USD"
+          data-field="marketCap"
+          data-trend="none"
+          data-pricehint="2"
+          value="4139006208"
+          active=""
+          >4.139B</fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Pend(10px) W(120px) Fz(s)"
+        aria-label="Volume in Currency (Since 0:00 UTC)"
+      >
+        134.226M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Pend(10px) W(120px) Fz(s)"
+        aria-label="Volume in Currency (24Hr)"
+      >
+        134.226M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Total Volume All Currencies (24Hr)"
+      >
+        134.226M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Circulating Supply"
+      >
+        367.056M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="52 Week Range"
+      >
+        <canvas
+          style="width: 140px; height: 23px"
+          width="175"
+          height="28"
+        ></canvas>
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Day Chart"
+      >
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="/chart/SOL-USD?p=SOL-USD"
+          class="C($linkColor)"
+          aria-label="Go to SOL-USD Chart"
+          data-symbol="SOL-USD"
+          ><canvas
+            style="width: 70px; height: 25px"
+            width="87"
+            height="31"
+          ></canvas
+        ></a>
+      </td>
+    </tr>
+    <tr
+      class="simpTblRow Bgc($hoverBgColor):h BdB Bdbc($seperatorColor) Bdbc($tableBorderBlue):h H(32px) Bgc($lv2BgColor)"
+    >
+      <td
+        colspan=""
+        class="Va(m) Ta(start) Pstart(6px) Pend(10px) Whs(nw) Miw(90px) Start(0) Pend(10px) simpTblRow:h_Bgc($hoverBgColor) Pos(st) Bgc($lv3BgColor) Z(1) Bgc($lv2BgColor) Ta(start)! Fz(s)"
+        aria-label="Symbol"
+      >
+        <label
+          data-id="portfolio-checkbox"
+          class="Ta(c) Pos(r) Va(tb) Pend(5px) D(n)--print"
+          ><input
+            type="checkbox"
+            class="Pos(a) Op(0) checkbox"
+            aria-label="Select UNI7083-USD" /><svg
+            class="Va(m)! H(16px) W(16px) checkbox:f+Stk($linkColor)! checkbox:f+Fill($linkColor)! Stk($plusGray) Fill($plusGray) Cur(p)"
+            width="16"
+            style="stroke-width: 0; vertical-align: bottom"
+            height="16"
+            viewBox="0 0 24 24"
+            data-icon="checkbox-unchecked"
+          >
+            <path
+              d="M3 3h18v18H3V3zm19-2H2c-.553 0-1 .448-1 1v20c0 .552.447 1 1 1h20c.552 0 1-.448 1-1V2c0-.552-.448-1-1-1z"
+            ></path></svg></label
+        ><img
+          src="https://s2.coinmarketcap.com/static/img/coins/64x64/7083.png"
+          class="W(20px) H(20px) Mend(5px)"
+          alt="Uniswap USD"
+        /><a
+          data-test="quoteLink"
+          href="/quote/UNI7083-USD?p=UNI7083-USD"
+          title="Uniswap USD"
+          class="Fw(600) C($linkColor)"
+          >UNI7083-USD</a
+        >
+        <div
+          class="W(3px) Pos(a) Start(100%) T(0) H(100%) Bg($pfColumnFakeShadowGradient) Pe(n) Pend(5px)"
+        ></div>
+      </td>
+      <td colspan="" class="Va(m) Ta(start) Px(10px) Fz(s)" aria-label="Name">
+        Uniswap USD
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="Price (Intraday)"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class=""
+          data-symbol="UNI7083-USD"
+          data-field="regularMarketPrice"
+          data-trend="none"
+          data-pricehint="4"
+          value="5.1946535"
+          active=""
+          ><span class="e3b14781 e59c8479">5.19</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="Change"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class="Fw(600)"
+          data-symbol="UNI7083-USD"
+          data-field="regularMarketChange"
+          data-trend="txt"
+          data-pricehint="4"
+          value="0.012945175"
+          active=""
+          ><span class="e3b14781 f4be3290 e59c8479">+0.01</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="% Change"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class="Fw(600)"
+          data-symbol="UNI7083-USD"
+          data-field="regularMarketChangePercent"
+          data-trend="txt"
+          data-pricehint="4"
+          value="0.24982134"
+          active=""
+          ><span class="e3b14781 f4be3290 e59c8479">+0.20%</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Market Cap"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class=""
+          data-symbol="UNI7083-USD"
+          data-field="marketCap"
+          data-trend="none"
+          data-pricehint="4"
+          value="3959413504"
+          active=""
+          ><span class="e3b14781 e59c8479">3.957B</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Pend(10px) W(120px) Fz(s)"
+        aria-label="Volume in Currency (Since 0:00 UTC)"
+      >
+        44.621M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Pend(10px) W(120px) Fz(s)"
+        aria-label="Volume in Currency (24Hr)"
+      >
+        44.621M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Total Volume All Currencies (24Hr)"
+      >
+        44.621M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Circulating Supply"
+      >
+        762.209M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="52 Week Range"
+      >
+        <canvas
+          style="width: 140px; height: 23px"
+          width="175"
+          height="28"
+        ></canvas>
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Day Chart"
+      >
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="/chart/UNI7083-USD?p=UNI7083-USD"
+          class="C($linkColor)"
+          aria-label="Go to UNI7083-USD Chart"
+          data-symbol="UNI7083-USD"
+          ><canvas
+            style="width: 70px; height: 25px"
+            width="87"
+            height="31"
+          ></canvas
+        ></a>
+      </td>
+    </tr>
+    <tr
+      class="simpTblRow Bgc($hoverBgColor):h BdB Bdbc($seperatorColor) Bdbc($tableBorderBlue):h H(32px) Bgc($lv1BgColor)"
+    >
+      <td
+        colspan=""
+        class="Va(m) Ta(start) Pstart(6px) Pend(10px) Whs(nw) Miw(90px) Start(0) Pend(10px) simpTblRow:h_Bgc($hoverBgColor) Pos(st) Bgc($lv3BgColor) Z(1) Bgc($lv1BgColor) Ta(start)! Fz(s)"
+        aria-label="Symbol"
+      >
+        <label
+          data-id="portfolio-checkbox"
+          class="Ta(c) Pos(r) Va(tb) Pend(5px) D(n)--print"
+          ><input
+            type="checkbox"
+            class="Pos(a) Op(0) checkbox"
+            aria-label="Select HEX-USD" /><svg
+            class="Va(m)! H(16px) W(16px) checkbox:f+Stk($linkColor)! checkbox:f+Fill($linkColor)! Stk($plusGray) Fill($plusGray) Cur(p)"
+            width="16"
+            style="stroke-width: 0; vertical-align: bottom"
+            height="16"
+            viewBox="0 0 24 24"
+            data-icon="checkbox-unchecked"
+          >
+            <path
+              d="M3 3h18v18H3V3zm19-2H2c-.553 0-1 .448-1 1v20c0 .552.447 1 1 1h20c.552 0 1-.448 1-1V2c0-.552-.448-1-1-1z"
+            ></path></svg></label
+        ><img
+          src="https://s2.coinmarketcap.com/static/img/coins/64x64/5015.png"
+          class="W(20px) H(20px) Mend(5px)"
+          alt="HEX USD"
+        /><a
+          data-test="quoteLink"
+          href="/quote/HEX-USD?p=HEX-USD"
+          title="HEX USD"
+          class="Fw(600) C($linkColor)"
+          >HEX-USD</a
+        >
+        <div
+          class="W(3px) Pos(a) Start(100%) T(0) H(100%) Bg($pfColumnFakeShadowGradient) Pe(n) Pend(5px)"
+        ></div>
+      </td>
+      <td colspan="" class="Va(m) Ta(start) Px(10px) Fz(s)" aria-label="Name">
+        HEX USD
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="Price (Intraday)"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class=""
+          data-symbol="HEX-USD"
+          data-field="regularMarketPrice"
+          data-trend="none"
+          data-pricehint="6"
+          value="0.021980997"
+          active=""
+          ><span class="e3b14781 f5a023e1">0.0220</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="Change"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class="Fw(600)"
+          data-symbol="HEX-USD"
+          data-field="regularMarketChange"
+          data-trend="txt"
+          data-pricehint="6"
+          value="-0.00034878962"
+          active=""
+          ><span class="e3b14781 ee3e99dd f5a023e1">-0.0003</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="% Change"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class="Fw(600)"
+          data-symbol="HEX-USD"
+          data-field="regularMarketChangePercent"
+          data-trend="txt"
+          data-pricehint="6"
+          value="-1.5619941"
+          active=""
+          ><span class="e3b14781 ee3e99dd f5a023e1"
+            >-1.5119%</span
+          ></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Market Cap"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class=""
+          data-symbol="HEX-USD"
+          data-field="marketCap"
+          data-trend="none"
+          data-pricehint="6"
+          value="3811748352"
+          active=""
+          ><span class="e3b14781 f5a023e1">3.813B</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Pend(10px) W(120px) Fz(s)"
+        aria-label="Volume in Currency (Since 0:00 UTC)"
+      >
+        3.686M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Pend(10px) W(120px) Fz(s)"
+        aria-label="Volume in Currency (24Hr)"
+      >
+        3.686M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Total Volume All Currencies (24Hr)"
+      >
+        3.686M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Circulating Supply"
+      >
+        173.411B
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="52 Week Range"
+      >
+        <canvas
+          style="width: 140px; height: 23px"
+          width="175"
+          height="28"
+        ></canvas>
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Day Chart"
+      >
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="/chart/HEX-USD?p=HEX-USD"
+          class="C($linkColor)"
+          aria-label="Go to HEX-USD Chart"
+          data-symbol="HEX-USD"
+          ><canvas
+            style="width: 70px; height: 25px"
+            width="87"
+            height="31"
+          ></canvas
+        ></a>
+      </td>
+    </tr>
+    <tr
+      class="simpTblRow Bgc($hoverBgColor):h BdB Bdbc($seperatorColor) Bdbc($tableBorderBlue):h H(32px) Bgc($lv2BgColor)"
+    >
+      <td
+        colspan=""
+        class="Va(m) Ta(start) Pstart(6px) Pend(10px) Whs(nw) Miw(90px) Start(0) Pend(10px) simpTblRow:h_Bgc($hoverBgColor) Pos(st) Bgc($lv3BgColor) Z(1) Bgc($lv2BgColor) Ta(start)! Fz(s)"
+        aria-label="Symbol"
+      >
+        <label
+          data-id="portfolio-checkbox"
+          class="Ta(c) Pos(r) Va(tb) Pend(5px) D(n)--print"
+          ><input
+            type="checkbox"
+            class="Pos(a) Op(0) checkbox"
+            aria-label="Select AVAX-USD" /><svg
+            class="Va(m)! H(16px) W(16px) checkbox:f+Stk($linkColor)! checkbox:f+Fill($linkColor)! Stk($plusGray) Fill($plusGray) Cur(p)"
+            width="16"
+            style="stroke-width: 0; vertical-align: bottom"
+            height="16"
+            viewBox="0 0 24 24"
+            data-icon="checkbox-unchecked"
+          >
+            <path
+              d="M3 3h18v18H3V3zm19-2H2c-.553 0-1 .448-1 1v20c0 .552.447 1 1 1h20c.552 0 1-.448 1-1V2c0-.552-.448-1-1-1z"
+            ></path></svg></label
+        ><img
+          src="https://s2.coinmarketcap.com/static/img/coins/64x64/5805.png"
+          class="W(20px) H(20px) Mend(5px)"
+          alt="Avalanche USD"
+        /><a
+          data-test="quoteLink"
+          href="/quote/AVAX-USD?p=AVAX-USD"
+          title="Avalanche USD"
+          class="Fw(600) C($linkColor)"
+          >AVAX-USD</a
+        >
+        <div
+          class="W(3px) Pos(a) Start(100%) T(0) H(100%) Bg($pfColumnFakeShadowGradient) Pe(n) Pend(5px)"
+        ></div>
+      </td>
+      <td colspan="" class="Va(m) Ta(start) Px(10px) Fz(s)" aria-label="Name">
+        Avalanche USD
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="Price (Intraday)"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class=""
+          data-symbol="AVAX-USD"
+          data-field="regularMarketPrice"
+          data-trend="none"
+          data-pricehint="2"
+          value="11.710418"
+          active=""
+          ><span class="e3b14781 e59c8479">11.70</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="Change"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class="Fw(600)"
+          data-symbol="AVAX-USD"
+          data-field="regularMarketChange"
+          data-trend="txt"
+          data-pricehint="2"
+          value="-0.05111885"
+          active=""
+          ><span class="e3b14781 ee3e99dd e59c8479">-0.06</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="% Change"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class="Fw(600)"
+          data-symbol="AVAX-USD"
+          data-field="regularMarketChangePercent"
+          data-trend="txt"
+          data-pricehint="2"
+          value="-0.43462944"
+          active=""
+          ><span class="e3b14781 ee3e99dd e59c8479">-0.49%</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Market Cap"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class=""
+          data-symbol="AVAX-USD"
+          data-field="marketCap"
+          data-trend="none"
+          data-pricehint="2"
+          value="3648752128"
+          active=""
+          ><span class="e3b14781 e59c8479">3.646B</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Pend(10px) W(120px) Fz(s)"
+        aria-label="Volume in Currency (Since 0:00 UTC)"
+      >
+        90.738M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Pend(10px) W(120px) Fz(s)"
+        aria-label="Volume in Currency (24Hr)"
+      >
+        90.738M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Total Volume All Currencies (24Hr)"
+      >
+        90.738M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Circulating Supply"
+      >
+        311.582M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="52 Week Range"
+      >
+        <canvas
+          style="width: 140px; height: 23px"
+          width="175"
+          height="28"
+        ></canvas>
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Day Chart"
+      >
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="/chart/AVAX-USD?p=AVAX-USD"
+          class="C($linkColor)"
+          aria-label="Go to AVAX-USD Chart"
+          data-symbol="AVAX-USD"
+          ><canvas
+            style="width: 70px; height: 25px"
+            width="87"
+            height="31"
+          ></canvas
+        ></a>
+      </td>
+    </tr>
+    <tr
+      class="simpTblRow Bgc($hoverBgColor):h BdB Bdbc($seperatorColor) Bdbc($tableBorderBlue):h H(32px) Bgc($lv1BgColor)"
+    >
+      <td
+        colspan=""
+        class="Va(m) Ta(start) Pstart(6px) Pend(10px) Whs(nw) Miw(90px) Start(0) Pend(10px) simpTblRow:h_Bgc($hoverBgColor) Pos(st) Bgc($lv3BgColor) Z(1) Bgc($lv1BgColor) Ta(start)! Fz(s)"
+        aria-label="Symbol"
+      >
+        <label
+          data-id="portfolio-checkbox"
+          class="Ta(c) Pos(r) Va(tb) Pend(5px) D(n)--print"
+          ><input
+            type="checkbox"
+            class="Pos(a) Op(0) checkbox"
+            aria-label="Select LEO-USD" /><svg
+            class="Va(m)! H(16px) W(16px) checkbox:f+Stk($linkColor)! checkbox:f+Fill($linkColor)! Stk($plusGray) Fill($plusGray) Cur(p)"
+            width="16"
+            style="stroke-width: 0; vertical-align: bottom"
+            height="16"
+            viewBox="0 0 24 24"
+            data-icon="checkbox-unchecked"
+          >
+            <path
+              d="M3 3h18v18H3V3zm19-2H2c-.553 0-1 .448-1 1v20c0 .552.447 1 1 1h20c.552 0 1-.448 1-1V2c0-.552-.448-1-1-1z"
+            ></path></svg></label
+        ><img
+          src="https://s2.coinmarketcap.com/static/img/coins/64x64/3957.png"
+          class="W(20px) H(20px) Mend(5px)"
+          alt="UNUS SED LEO USD"
+        /><a
+          data-test="quoteLink"
+          href="/quote/LEO-USD?p=LEO-USD"
+          title="UNUS SED LEO USD"
+          class="Fw(600) C($linkColor)"
+          >LEO-USD</a
+        >
+        <div
+          class="W(3px) Pos(a) Start(100%) T(0) H(100%) Bg($pfColumnFakeShadowGradient) Pe(n) Pend(5px)"
+        ></div>
+      </td>
+      <td colspan="" class="Va(m) Ta(start) Px(10px) Fz(s)" aria-label="Name">
+        UNUS SED LEO USD
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="Price (Intraday)"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class=""
+          data-symbol="LEO-USD"
+          data-field="regularMarketPrice"
+          data-trend="none"
+          data-pricehint="4"
+          value="3.570042"
+          active=""
+          ><span class="e3b14781 f5a023e1">3.5705</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="Change"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class="Fw(600)"
+          data-symbol="LEO-USD"
+          data-field="regularMarketChange"
+          data-trend="txt"
+          data-pricehint="4"
+          value="-0.042644024"
+          active=""
+          ><span class="e3b14781 ee3e99dd f5a023e1">-0.0420</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="% Change"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class="Fw(600)"
+          data-symbol="LEO-USD"
+          data-field="regularMarketChangePercent"
+          data-trend="txt"
+          data-pricehint="4"
+          value="-1.1803983"
+          active=""
+          ><span class="e3b14781 ee3e99dd f5a023e1"
+            >-1.1639%</span
+          ></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Market Cap"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class=""
+          data-symbol="LEO-USD"
+          data-field="marketCap"
+          data-trend="none"
+          data-pricehint="4"
+          value="3405656320"
+          active=""
+          ><span class="e3b14781 f5a023e1">3.406B</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Pend(10px) W(120px) Fz(s)"
+        aria-label="Volume in Currency (Since 0:00 UTC)"
+      >
+        2.756M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Pend(10px) W(120px) Fz(s)"
+        aria-label="Volume in Currency (24Hr)"
+      >
+        2.756M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Total Volume All Currencies (24Hr)"
+      >
+        2.756M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Circulating Supply"
+      >
+        953.954M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="52 Week Range"
+      >
+        <canvas
+          style="width: 140px; height: 23px"
+          width="175"
+          height="28"
+        ></canvas>
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Day Chart"
+      >
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="/chart/LEO-USD?p=LEO-USD"
+          class="C($linkColor)"
+          aria-label="Go to LEO-USD Chart"
+          data-symbol="LEO-USD"
+          ><canvas
+            style="width: 70px; height: 25px"
+            width="87"
+            height="31"
+          ></canvas
+        ></a>
+      </td>
+    </tr>
+    <tr
+      class="simpTblRow Bgc($hoverBgColor):h BdB Bdbc($seperatorColor) Bdbc($tableBorderBlue):h H(32px) Bgc($lv2BgColor)"
+    >
+      <td
+        colspan=""
+        class="Va(m) Ta(start) Pstart(6px) Pend(10px) Whs(nw) Miw(90px) Start(0) Pend(10px) simpTblRow:h_Bgc($hoverBgColor) Pos(st) Bgc($lv3BgColor) Z(1) Bgc($lv2BgColor) Ta(start)! Fz(s)"
+        aria-label="Symbol"
+      >
+        <label
+          data-id="portfolio-checkbox"
+          class="Ta(c) Pos(r) Va(tb) Pend(5px) D(n)--print"
+          ><input
+            type="checkbox"
+            class="Pos(a) Op(0) checkbox"
+            aria-label="Select WBTC-USD" /><svg
+            class="Va(m)! H(16px) W(16px) checkbox:f+Stk($linkColor)! checkbox:f+Fill($linkColor)! Stk($plusGray) Fill($plusGray) Cur(p)"
+            width="16"
+            style="stroke-width: 0; vertical-align: bottom"
+            height="16"
+            viewBox="0 0 24 24"
+            data-icon="checkbox-unchecked"
+          >
+            <path
+              d="M3 3h18v18H3V3zm19-2H2c-.553 0-1 .448-1 1v20c0 .552.447 1 1 1h20c.552 0 1-.448 1-1V2c0-.552-.448-1-1-1z"
+            ></path></svg></label
+        ><img
+          src="https://s2.coinmarketcap.com/static/img/coins/64x64/3717.png"
+          class="W(20px) H(20px) Mend(5px)"
+          alt="Wrapped Bitcoin USD"
+        /><a
+          data-test="quoteLink"
+          href="/quote/WBTC-USD?p=WBTC-USD"
+          title="Wrapped Bitcoin USD"
+          class="Fw(600) C($linkColor)"
+          >WBTC-USD</a
+        >
+        <div
+          class="W(3px) Pos(a) Start(100%) T(0) H(100%) Bg($pfColumnFakeShadowGradient) Pe(n) Pend(5px)"
+        ></div>
+      </td>
+      <td colspan="" class="Va(m) Ta(start) Px(10px) Fz(s)" aria-label="Name">
+        Wrapped Bitcoin USD
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="Price (Intraday)"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class=""
+          data-symbol="WBTC-USD"
+          data-field="regularMarketPrice"
+          data-trend="none"
+          data-pricehint="2"
+          value="16854.047"
+          active=""
+          ><span class="e3b14781 e59c8479">16,851.89</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="Change"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class="Fw(600)"
+          data-symbol="WBTC-USD"
+          data-field="regularMarketChange"
+          data-trend="txt"
+          data-pricehint="2"
+          value="-10.810547"
+          active=""
+          ><span class="e3b14781 ee3e99dd e59c8479">-13.74</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="% Change"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class="Fw(600)"
+          data-symbol="WBTC-USD"
+          data-field="regularMarketChangePercent"
+          data-trend="txt"
+          data-pricehint="2"
+          value="-0.0641043"
+          active=""
+          ><span class="e3b14781 ee3e99dd e59c8479">-0.08%</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Market Cap"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class=""
+          data-symbol="WBTC-USD"
+          data-field="marketCap"
+          data-trend="none"
+          data-pricehint="2"
+          value="3109650432"
+          active=""
+          ><span class="e3b14781 e59c8479">3.109B</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Pend(10px) W(120px) Fz(s)"
+        aria-label="Volume in Currency (Since 0:00 UTC)"
+      >
+        40.092M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Pend(10px) W(120px) Fz(s)"
+        aria-label="Volume in Currency (24Hr)"
+      >
+        40.092M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Total Volume All Currencies (24Hr)"
+      >
+        40.092M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Circulating Supply"
+      >
+        184,504
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="52 Week Range"
+      >
+        <canvas
+          style="width: 140px; height: 23px"
+          width="175"
+          height="28"
+        ></canvas>
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Day Chart"
+      >
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="/chart/WBTC-USD?p=WBTC-USD"
+          class="C($linkColor)"
+          aria-label="Go to WBTC-USD Chart"
+          data-symbol="WBTC-USD"
+          ><canvas
+            style="width: 70px; height: 25px"
+            width="87"
+            height="31"
+          ></canvas
+        ></a>
+      </td>
+    </tr>
+    <tr
+      class="simpTblRow Bgc($hoverBgColor):h BdB Bdbc($seperatorColor) Bdbc($tableBorderBlue):h H(32px) Bgc($lv1BgColor)"
+    >
+      <td
+        colspan=""
+        class="Va(m) Ta(start) Pstart(6px) Pend(10px) Whs(nw) Miw(90px) Start(0) Pend(10px) simpTblRow:h_Bgc($hoverBgColor) Pos(st) Bgc($lv3BgColor) Z(1) Bgc($lv1BgColor) Ta(start)! Fz(s)"
+        aria-label="Symbol"
+      >
+        <label
+          data-id="portfolio-checkbox"
+          class="Ta(c) Pos(r) Va(tb) Pend(5px) D(n)--print"
+          ><input
+            type="checkbox"
+            class="Pos(a) Op(0) checkbox"
+            aria-label="Select LINK-USD" /><svg
+            class="Va(m)! H(16px) W(16px) checkbox:f+Stk($linkColor)! checkbox:f+Fill($linkColor)! Stk($plusGray) Fill($plusGray) Cur(p)"
+            width="16"
+            style="stroke-width: 0; vertical-align: bottom"
+            height="16"
+            viewBox="0 0 24 24"
+            data-icon="checkbox-unchecked"
+          >
+            <path
+              d="M3 3h18v18H3V3zm19-2H2c-.553 0-1 .448-1 1v20c0 .552.447 1 1 1h20c.552 0 1-.448 1-1V2c0-.552-.448-1-1-1z"
+            ></path></svg></label
+        ><img
+          src="https://s2.coinmarketcap.com/static/img/coins/64x64/1975.png"
+          class="W(20px) H(20px) Mend(5px)"
+          alt="Chainlink USD"
+        /><a
+          data-test="quoteLink"
+          href="/quote/LINK-USD?p=LINK-USD"
+          title="Chainlink USD"
+          class="Fw(600) C($linkColor)"
+          >LINK-USD</a
+        >
+        <div
+          class="W(3px) Pos(a) Start(100%) T(0) H(100%) Bg($pfColumnFakeShadowGradient) Pe(n) Pend(5px)"
+        ></div>
+      </td>
+      <td colspan="" class="Va(m) Ta(start) Px(10px) Fz(s)" aria-label="Name">
+        Chainlink USD
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="Price (Intraday)"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class=""
+          data-symbol="LINK-USD"
+          data-field="regularMarketPrice"
+          data-trend="none"
+          data-pricehint="4"
+          value="5.98929"
+          active=""
+          ><span class="e3b14781 f5a023e1">5.99</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="Change"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class="Fw(600)"
+          data-symbol="LINK-USD"
+          data-field="regularMarketChange"
+          data-trend="txt"
+          data-pricehint="4"
+          value="0.006260872"
+          active=""
+          ><span class="e3b14781 e59c8479">0.00</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="% Change"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class="Fw(600)"
+          data-symbol="LINK-USD"
+          data-field="regularMarketChangePercent"
+          data-trend="txt"
+          data-pricehint="4"
+          value="0.10464226"
+          active=""
+          ><span class="e3b14781 f4be3290 e59c8479">+0.08%</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Market Cap"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class=""
+          data-symbol="LINK-USD"
+          data-field="marketCap"
+          data-trend="none"
+          data-pricehint="4"
+          value="3042559232"
+          active=""
+          ><span class="e3b14781 e59c8479">3.042B</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Pend(10px) W(120px) Fz(s)"
+        aria-label="Volume in Currency (Since 0:00 UTC)"
+      >
+        132.883M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Pend(10px) W(120px) Fz(s)"
+        aria-label="Volume in Currency (24Hr)"
+      >
+        132.883M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Total Volume All Currencies (24Hr)"
+      >
+        132.883M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Circulating Supply"
+      >
+        508M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="52 Week Range"
+      >
+        <canvas
+          style="width: 140px; height: 23px"
+          width="175"
+          height="28"
+        ></canvas>
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Day Chart"
+      >
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="/chart/LINK-USD?p=LINK-USD"
+          class="C($linkColor)"
+          aria-label="Go to LINK-USD Chart"
+          data-symbol="LINK-USD"
+          ><canvas
+            style="width: 70px; height: 25px"
+            width="87"
+            height="31"
+          ></canvas
+        ></a>
+      </td>
+    </tr>
+    <tr
+      class="simpTblRow Bgc($hoverBgColor):h BdB Bdbc($seperatorColor) Bdbc($tableBorderBlue):h H(32px) Bgc($lv2BgColor)"
+    >
+      <td
+        colspan=""
+        class="Va(m) Ta(start) Pstart(6px) Pend(10px) Whs(nw) Miw(90px) Start(0) Pend(10px) simpTblRow:h_Bgc($hoverBgColor) Pos(st) Bgc($lv3BgColor) Z(1) Bgc($lv2BgColor) Ta(start)! Fz(s)"
+        aria-label="Symbol"
+      >
+        <label
+          data-id="portfolio-checkbox"
+          class="Ta(c) Pos(r) Va(tb) Pend(5px) D(n)--print"
+          ><input
+            type="checkbox"
+            class="Pos(a) Op(0) checkbox"
+            aria-label="Select TON11419-USD" /><svg
+            class="Va(m)! H(16px) W(16px) checkbox:f+Stk($linkColor)! checkbox:f+Fill($linkColor)! Stk($plusGray) Fill($plusGray) Cur(p)"
+            width="16"
+            style="stroke-width: 0; vertical-align: bottom"
+            height="16"
+            viewBox="0 0 24 24"
+            data-icon="checkbox-unchecked"
+          >
+            <path
+              d="M3 3h18v18H3V3zm19-2H2c-.553 0-1 .448-1 1v20c0 .552.447 1 1 1h20c.552 0 1-.448 1-1V2c0-.552-.448-1-1-1z"
+            ></path></svg></label
+        ><img
+          src="https://s2.coinmarketcap.com/static/img/coins/64x64/11419.png"
+          class="W(20px) H(20px) Mend(5px)"
+          alt="Toncoin USD"
+        /><a
+          data-test="quoteLink"
+          href="/quote/TON11419-USD?p=TON11419-USD"
+          title="Toncoin USD"
+          class="Fw(600) C($linkColor)"
+          >TON11419-USD</a
+        >
+        <div
+          class="W(3px) Pos(a) Start(100%) T(0) H(100%) Bg($pfColumnFakeShadowGradient) Pe(n) Pend(5px)"
+        ></div>
+      </td>
+      <td colspan="" class="Va(m) Ta(start) Px(10px) Fz(s)" aria-label="Name">
+        Toncoin USD
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="Price (Intraday)"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class=""
+          data-symbol="TON11419-USD"
+          data-field="regularMarketPrice"
+          data-trend="none"
+          data-pricehint="4"
+          value="2.324999"
+          active=""
+          ><span class="e3b14781 f5a023e1">2.3278</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="Change"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class="Fw(600)"
+          data-symbol="TON11419-USD"
+          data-field="regularMarketChange"
+          data-trend="txt"
+          data-pricehint="4"
+          value="-0.12673855"
+          active=""
+          ><span class="e3b14781 ee3e99dd f5a023e1">-0.1234</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fw(600) Fz(s)"
+        aria-label="% Change"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class="Fw(600)"
+          data-symbol="TON11419-USD"
+          data-field="regularMarketChangePercent"
+          data-trend="txt"
+          data-pricehint="4"
+          value="-5.169338"
+          active=""
+          ><span class="e3b14781 ee3e99dd f5a023e1"
+            >-5.0329%</span
+          ></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Market Cap"
+      >
+        <fin-streamer
+          data-test="colorChange"
+          class=""
+          data-symbol="TON11419-USD"
+          data-field="marketCap"
+          data-trend="none"
+          data-pricehint="4"
+          value="2839756544"
+          active=""
+          ><span class="e3b14781 f5a023e1">2.843B</span></fin-streamer
+        >
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Pend(10px) W(120px) Fz(s)"
+        aria-label="Volume in Currency (Since 0:00 UTC)"
+      >
+        53.934M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Pend(10px) W(120px) Fz(s)"
+        aria-label="Volume in Currency (24Hr)"
+      >
+        53.934M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Total Volume All Currencies (24Hr)"
+      >
+        53.934M
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Circulating Supply"
+      >
+        1.221B
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="52 Week Range"
+      >
+        <canvas
+          style="width: 140px; height: 23px"
+          width="175"
+          height="28"
+        ></canvas>
+      </td>
+      <td
+        colspan=""
+        class="Va(m) Ta(end) Pstart(20px) Fz(s)"
+        aria-label="Day Chart"
+      >
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="/chart/TON11419-USD?p=TON11419-USD"
+          class="C($linkColor)"
+          aria-label="Go to TON11419-USD Chart"
+          data-symbol="TON11419-USD"
+          ><canvas
+            style="width: 70px; height: 25px"
+            width="87"
+            height="31"
+          ></canvas
+        ></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
