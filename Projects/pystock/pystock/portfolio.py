@@ -3,7 +3,7 @@ import datetime
 from tabulate import tabulate
 from pystock.utils import *
 from pystock.exceptions import *
-from pystock.FFF import FamaFrenchFactors
+from pystock.fff import FamaFrenchFactors
 import statsmodels.api as sm
 
 FREQUENCY = {
