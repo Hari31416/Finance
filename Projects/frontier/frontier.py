@@ -4,6 +4,8 @@ from pystock.models import Model
 import plotly.express as px
 import pandas as pd
 import warnings
+from tqdm import tqdm
+from style import cprint
 
 pd.options.mode.chained_assignment = None
 
@@ -157,7 +159,7 @@ class EfficientFrontier:
         returns = np.zeros(len(weights))
         volatilities = np.zeros(len(weights))
         sharpe_ratios = np.zeros(len(weights))
-        for i in range(len(weights)):
+        for i in tqdm(range(len(weights)), desc="Calculating returns"):
             return_, variance, std = self.model.portfolio_info(weights[i], model=model)
             returns[i] = return_
             volatilities[i] = variance
